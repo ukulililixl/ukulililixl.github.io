@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>RedisAssigner | Husky-Redis Connector</title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.7">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="./redis_inputformat.html" />
+    
+    
+    <link rel="prev" href="./index.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="1"
+        data-chapter-title="RedisAssigner"
+        data-filepath="RedisAssigner.md"
+        data-basepath="."
+        data-revision="Tue Nov 15 2016 11:12:50 GMT+0800 (HKT)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="./index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Toy Example
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="1" data-path="RedisAssigner.html">
+            
+                
+                    <a href="./RedisAssigner.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        RedisAssigner
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="redis_inputformat.html">
+            
+                
+                    <a href="./redis_inputformat.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.</b>
+                        
+                        redis_inputformat
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="./" >Husky-Redis Connector</a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="redisassigner">RedisAssigner</h1>
+<p>This module include <code>$HUSKY_HOME/master/RedisAssigner.hpp</code> and <code>$HUSKY_HOME/master/RedisAssigner.cpp</code></p>
+<p>This module will run on husky master</p>
+<ul>
+<li>Function:<ul>
+<li>Initialization<ul>
+<li>Will initialized during the initialization of husky master</li>
+<li>Now: just hardcode very simple start-up example, only use one key.</li>
+<li>TODO: <ul>
+<li>When initialize, should read information from the configuration file: redisserver, filename which contains all keys</li>
+<li>Construct the map from redisserver-&gt;keylists</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>deal with the request:<ul>
+<li>Will handle the request from husky worker which want to get list of keys it should read.</li>
+<li>Now: Only return one key.</li>
+<li>TODO: <ul>
+<li>Shoule wrap the keys(maybe also host), into something like Redis_Split.</li>
+<li>Then assigner will return Redis_Split to husky worker. (We may modify the interface of BinStream???)
+*</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="./index.html" class="navigation navigation-prev " aria-label="Previous page: Toy Example"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="./redis_inputformat.html" class="navigation navigation-next " aria-label="Next page: redis_inputformat"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="gitbook/app.js"></script>
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
