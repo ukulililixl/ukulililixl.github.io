@@ -55,7 +55,7 @@
 
 \section{Education}
 \cventry{2016--Now}{PhD}{Computer Science and Engineering}{The Chinese University of Hong Kong}{}{}  %{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-\cventry{2012--2016}{B.Eng}{Computer Science and Technology}{University of Science and Technology of China}{}{} %{\textit{Grade}}{Description}
+\cventry{2012--2016}{B.Eng}{Computer Science and Technology}{University of Science and Technology of China}{}{Grade: 3.71/4.3 Average: 88.03/100 Ranking: 13/103} %{\textit{Grade}}{Description}
 
 \section{Working Experience}
 \cventry{2015--2016}{Research Assistant}{Computer Science and Engineering}{The Chinese University of Hong Kong}{}{}%{I help to build a data recovery prototype in HDFS.}
@@ -71,25 +71,26 @@
 %  \item I help to design the framework of our measurement tool application including command line and packet processing framework.
 %  \item I pass on the packet information to the interface of my teammate for her to implement sketch algorithms.
 % \end{itemize}}
-\cventry{2016-2017}{ECPipe}{Repair Pipelining for Erasure-Coded Storage}{}{}{%My contribution:%\newline{}%
+\cventry{2016-2017}{Repair Pipelining for Erasure-Coded Storage}{}{}{}{%My contribution:%\newline{}%
 %Detailed achievements:%
-Repair pipelining is a technique that speeds up the repair performance in general erasure-coded storage by pipelining
-the repair of failed data in small-size units across storage nodes. We build a middleware system ECPipe, which can run atop distributed
-file systems such as HDFS and Quantcast File System to speed up the repair performance.
+\begin{itemize}
+\item Integrate our system ECPipe into HDFS and Quantcast File System.
+\item Source code: \url{http://adslab.cse.cuhk.edu.hk/software/ecpipe/} 
+\end{itemize}
 }
-\cventry{2015--2017}{DoubleR}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}{}{
-Repair layering is a technique to partition repair operation into inner-rack and cross-rack layers such that cross-rack
-traffic can be reduced. DoubleR is a practical repair layering framework atop HDFS. DoubleR deploys two families 
-of practical double regenerating codes, which not only minimize the cross-rack repair traffic, but also have 
-several practical properties that improve state-of-the-art regenerating codes. DoubleR can also support many
-popular modern erasure codes.
+\cventry{2015--2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}{}{}{
+\begin{itemize}
+\item Build a new recovery prototype DoubleR in HDFS to support Double Regenerating Codes.
+\item Design a set of erasure coding interfaces to support state-of-the-arts erasure codes.
+\item Source code: \url{http://adslab.cse.cuhk.edu.hk/software/doubler/}
+\end{itemize}
 }
 %\subsection{Miscellaneous}
 %\cventry{2014}{Student Cluster Competition}{Ranking $3^{rd}$}{SC14, New Orleans}{}{A teammate and I worked on optimizing a molecular dynamic software called \texttt{NAMD} on our student cluster. We got the highest score for this application.}
 
 \section{Publications}
 \cventry{2017}{Repair Pipelining for Erasure-Coded Storage}{Runhui Li, Xiaolu Li, Patrick P. C. Lee and Qun Huang}{The 2017 USENIX Annual Technical Conference}{Santa Clara, California, July 2017}{}
-\cventry{2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng}{ACM Transactions on Storage (TOS)}{13(4), pp. 33:1-33:24, November 2017}{}
+\cventry{2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng}{ACM Transactions on Storage (TOS)}{13(4), pp. 33:1-33:24, November 2017. (AR: 60/283 = 21.2\%)}{}
 % \section{Languages}
 % \cvitemwithcomment{Language 1}{Skill level}{Comment}
 % \cvitemwithcomment{Language 2}{Skill level}{Comment}
@@ -115,6 +116,14 @@ popular modern erasure codes.
 % \cvlistitem{I feel excited about distributed system problems and enjoy hacking into system softwares.}
 % \cvlistitem{I enjoy playing musical instruments.}
 % \cvlistitem{I love swimming and tennis.}
+
+\section{Awards}
+\cventry{2016-Now}{CUHK Postgraduate Studentship}{}{}{}{}
+\cventry{2015}{Excellent Student Scholarship}{Grade3}{}{}{}
+\cventry{2014}{Student Cluster Competition}{Ranking $3^{rd}$ (teamwork)}{ACM/IEEE Supercomputing Conference}{New Orleans}{}
+\cventry{2014}{Guanghua Education Scholarship}{}{}{}{}
+\cventry{2013}{Excellent Student Scholarship}{Grade 2}{}{}{}
+\cventry{2012}{Excellent Freshman Scholarship}{Grade 3}{}{}{}
 
 %\section{Extra 2}
 %\cvlistdoubleitem{Item 1}{Item 4}
