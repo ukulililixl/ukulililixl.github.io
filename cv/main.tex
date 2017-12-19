@@ -71,29 +71,19 @@
 %  \item I help to design the framework of our measurement tool application including command line and packet processing framework.
 %  \item I pass on the packet information to the interface of my teammate for her to implement sketch algorithms.
 % \end{itemize}}
-\cventry{2016-2017}{Repair Pipelining for Erasure-Coded Storage}{}{}{}{%My contribution:%\newline{}%
+\cventry{2016-2017}{ECPipe}{Repair Pipelining for Erasure-Coded Storage}{}{}{%My contribution:%\newline{}%
 %Detailed achievements:%
-\begin{itemize}%
-\item I help to integrate our system ECPipe into HDFS.
-\item I help to integrate our system ECPipe into Quantcast File System with a co-worker.
-%  \begin{itemize}%
-%  \item Sub-achievement (a);
-%  \item Sub-achievement (b), with sub-sub-achievements (don't do this!);
-%    \begin{itemize}
-%    \item Sub-sub-achievement i;
-%    \item Sub-sub-achievement ii;
-%    \item Sub-sub-achievement iii;
-%    \end{itemize}
-%  \item Sub-achievement (c);
-%  \end{itemize}
-\item I help to conduct the experiment in both cluster and Amazon EC2 to verify the performance of our system.
-\end{itemize}}
-% \cventry{2016}{Redis Connector for Husky}{course project}{}{}{
-% \begin{itemize}
-%  \item I help to build the outer framework for our connector so that it can work with a simple example with Husky.
-%  \item I expose the interface to my teammate to further implement complex functions. 
-% \end{itemize}}
-\cventry{2015--2017}{Optimal Repair Layering for Erasure-Coded Data Centers}{}{}{}{I help to build a new recovery prototype in HDFS to support Double Regenerating Code, and also help to design a set of erasure coding interface to support state-of-the-arts erasure codes.}
+Repair pipelining is a technique that speeds up the repair performance in general erasure-coded storage by pipelining
+the repair of failed data in small-size units across storage nodes. We build a middleware system ECPipe, which can run atop distributed
+file systems such as HDFS and Quantcast File System to speed up the repair performance.
+}
+\cventry{2015--2017}{DoubleR}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}{}{
+Repair layering is a technique to partition repair operation into inner-rack and cross-rack layers such that cross-rack
+traffic can be reduced. DoubleR is a practical repair layering framework atop HDFS. DoubleR deploys two families 
+of practical double regenerating codes, which not only minimize the cross-rack repair traffic, but also have 
+several practical properties that improve state-of-the-art regenerating codes. DoubleR can also support many
+popular modern erasure codes.
+}
 %\subsection{Miscellaneous}
 %\cventry{2014}{Student Cluster Competition}{Ranking $3^{rd}$}{SC14, New Orleans}{}{A teammate and I worked on optimizing a molecular dynamic software called \texttt{NAMD} on our student cluster. We got the highest score for this application.}
 
