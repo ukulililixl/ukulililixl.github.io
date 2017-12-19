@@ -1,564 +1,322 @@
-<!DOCTYPE HTML>
-<!--
-	Highlights by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>ukulililixl</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body>
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+<head>
+    <title>Responsive Portfolio Template for Developers</title>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 Website Landing Page for Developers">
+    <meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+    <link rel="shortcut icon" href="favicon.ico">  
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> 
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">   
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.css">
+    
+    <!-- github calendar css -->
+    <link rel="stylesheet" href="assets/plugins/github-calendar/dist/github-calendar.css"
+/>
+    <!-- github acitivity css -->
+    <link rel="stylesheet" href="assets/plugins/github-activity/src/github-activity.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="github-activity-0.1.5.min.css">
 
-		<!-- Header -->
-			<section id="header">
-				<header class="major">
-					<h1>Li Xiaolu</h1>
-					<p>programming. music. Fitness.</p>
-				</header>
-				<div class="container">
-					<ul class="actions">
-						<li><a href="#one" class="button special scrolly">Begin</a></li>
-					</ul>
-				</div>
-			</section>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="github-activity-0.1.5.min.js"></script>
+    <script
+      src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"
+    ></script>
+    
+    <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.css"/>
+    
+</head> 
 
-		<!-- One -->
-			<section id="one" class="main special">
-				<div class="container">
-					<!--span class="image fit primary"><img src="images/bg.jpg" alt="" /></span-->
-					<div class="content">
-						<header class="major">
-							<h2>Who I am</h2>
-						</header>
-						<p>My name is Li Xiaolu. I got my bachelor's degree from the University of Science and Technology of China(USTC), department of Computer Science and Technology. Now I'm a PHD student in ADSLab(Applied Distributed System Lab) of the Chinese University of Hong Kong, supervised by <a href="http://www.cse.cuhk.edu.hk/~pclee/www/index.html">Patrick P.C. Lee</a></p>
-					</div>
-					<a href="#two" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
+<body>
+    <!-- ******HEADER****** --> 
+    <header class="header">
+        <div class="container">                       
+            <!--img class="profile-image img-responsive pull-left" src="assets/images/profile.png" alt="James Lee" /-->
+            <div class="profile-content pull-left">
+                <h1 class="name">Xiaolu Li</h1>
+                <h2 class="desc">PHD student</h2>   
+            </div><!--//profile-->
+            <!--a class="btn btn-cta-primary pull-right" href="http://themes.3rdwavemedia.com/" target="_blank"><i class="fa fa-paper-plane"></i> Contact Me</a-->              
+        </div><!--//container-->
+    </header><!--//header-->
+    
+    <div class="container sections-wrapper">
+        <div class="row">
+            <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section">
+                    <div class="section-inner">
+                        <h2 class="heading">About Me</h2>
+                        <div class="content">
+                            <p>My name is Li Xiaolu. 
+			    I got my bachelor's degree from the University of Science and Technology of China(USTC), 
+			    department of Computer Science and Technology. 
+			    Now I'm a PHD student in ADSLab(Applied Distributed System Lab) of the Chinese University of Hong Kong,
+			    supervised by <a href="http://www.cse.cuhk.edu.hk/~pclee/www/index.html">Patrick P.C. Lee</a>.</p>    
+                        
+			    <p>I feel excited playing with systems problems and enjoy hacking into system softwares.</p>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+   
+                <section class="publication section">
+                    <div class="section-inner">
+                        <h2 class="heading">Publication</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Repair Pipelining for Erasure-Coded Storage. </span></h3>
+				<p>Runhui Li, Xiaolu Li, Patrick P. C. Lee, and Qun Huang.</p>
+				<p>Proceedings of the 2017 USENIX Annual Technical Conference (USENIX ATC 2017), Santa Clara, CA, USA, July 2017.</p>
+				<p><a class="more-link" href="http://adslab.cse.cuhk.edu.hk/software/ecpipe/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div><!--//item-->
+                            
+                            <div class="item">
+                                <h3 class="title">Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice. </span></h3>
+				<p>Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng.</p>
+				<p>ACM Transactions on Storage (TOS), 13(4), pp. 33:1-33:24, November 2017.</p>
+				<p><a class="more-link" href="http://adslab.cse.cuhk.edu.hk/software/doubler/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                            </div><!--//item-->
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
 
-		<!-- Two -->
-			<section id="two" class="main special">
-				<div class="container">
-					<!--span class="image fit primary"><img src="images/bg.jpg" alt="" /></span-->
-					<div class="content">
-						<header class="major">
-							<h2>Content</h2>
-						</header>
-						<p></p>
-						<ul class="icons-grid">
-							<li>
-								<!--span class="icon major fa-code"></span-->
-								<span class="icon major fa-paperclip"></span>
-								<h3><a href="#PUBLICATION">My Publication</a></h3>
-							</li>
-							<li>
-								<span class="icon major fa-book"></span>
-								<h3><a href="#COURSE">My Course</a></h3>
-							</li>
-							<li>
-								<!--span class="icon major fa-camera-retro"></span-->
-								<span class="icon major fa-folder"></span>
-								<!--a href="#three"></a-->
-								<h3><a href="#TA">My TA Experience</a></h3>
-							</li>
-							<li>
-								<!--span class="icon major fa-coffee"></span-->
-								<span class="icon major fa-pencil"></span>
-								<h3><a href="#BLOG">My Blog</a></h3>
-							</li>
-							<li>
-								<span class="icon major fa-music"></span>
-								<h3><a href="#MUSIC">My music videos</a></h3>
-							</li>
-							<li>
-								<span class="icon major fa-camera"></span>
-								<h3><a href="#PHOTO">My photo</a></h3>
-							</li>
-						</ul>
-					</div>
-					<a href="#PUBLICATION" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
+                <section class="projects section">
+                    <div class="section-inner">
+                        <h2 class="heading">Projects</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title"><a href="#">ECPipe</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">This is the project for our paper in ATC, 2017. </p>
+                                <p><a class="more-link" href="http://adslab.cse.cuhk.edu.hk/software/ecpipe/ECPipe-1.0.tar.gz" target="_blank"><i class="fa fa-external-link"></i>Source Code</a></p>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><a href="#">DoubleR</a> <span class="label label-theme">Open Source</span></h3>
+                                <p class="summary">This is the project for our paper in TOS, 2017.</p>
+                                <p><a class="more-link" href="http://adslab.cse.cuhk.edu.hk/software/doubler/DoubleR-integrate.tar.gz" target="_blank"><i class="fa fa-external-link"></i>Source Code</a></p>
+                            </div><!--//item-->
+                            
+                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                
+                <section class="experience section">
+                    <div class="section-inner">
+                        <h2 class="heading">Work Experience</h2>
+                        <div class="content">
+                            <div class="item">
+                                <h3 class="title">Research Assistant - <span class="place"><a href="#">The Chinese University of Hong Kong</a></span> <span class="year">(Sept. 2015 - May 2016)</span></h3>
+				<p>I worked as a research assistant in CUHK from Sept. 2015 to May 2016. In this year I start to get my hands dirty on hacking into distributed storage system such as HDFS.</p>
+                            </div><!--//item-->
+                            
+                            
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </section><!--//section-->
+                <section class="github section">
+                    <div class="section-inner">
+                        <h2 class="heading">My GitHub</h2>
+                        
+			<!-- Prepare a container for your calendar. -->
+			<div class="calendar">
+			  <!-- Loading stuff -->
+			  Loading the data just for you.
+			</div>
+			
+			<script>
+			  GitHubCalendar(".calendar", "ukulililixl");
+			</script>
 
-		<!-- Three -->
+			<div id="feed"></div>
+			<script>
+			GitHubActivity.feed(
+			  username: "ukulililixl",
+			  selector: "#feed",
+			);
+			</script>
 
-			<section id="PUBLICATION" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>My Publication</h2>
-						</header>
-						<p>Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng.
-						"Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice."
-						Accepted for publication in ACM Transactions on Storage (TOS).</p>
-						<p>Runhui Li, Xiaolu Li, Patrick P. C. Lee, and Qun Huang.
-						"Repair Pipelining for Erasure-Coded Storage."
-						Proceedings of the 2017 USENIX Annual Technical Conference (USENIX ATC 2017), Santa Clara, CA, USA, July 2017.</p>
-					</div>
-					<a href="#COURSE" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
+                        
+                    </div><!--//secton-inner-->
+                </section><!--//section-->
+            </div><!--//primary-->
+            <div class="secondary col-md-4 col-sm-12 col-xs-12">
+                 <aside class="info aside section">
+                    <div class="section-inner">
+                        <h2 class="heading sr-only">Basic Information</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-map-marker"></i><span class="sr-only">Location:</span>Hong Kong</li>
+                                <li><i class="fa fa-envelope-o"></i><span class="sr-only">Email:</span><a href="#">ukulililixl@gmail.com</a></li>
+                                <li><i class="fa fa-link"></i><span class="sr-only">Website:</span><a href="#">http://ukulililixl.github.io</a></li>
+				<li><i class="fa fa-file-o"></i><span class="sr-only">CV:</span><a href="cv/xiaolu_cv.pdf">CV</a></li>
+                            </ul>
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//aside-->
+                
+                <aside class="skills aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Skills</h2>
+                        <div class="content">
+                            <div class="skillset">
+                               
+                                <div class="item">
+                                    <h3 class="level-title">C/C++<span class="level-label" data-toggle="tooltip" data-placement="left" data-animation="true" title="You can use the tooltip to add more info...">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Java<span class="level-label">Expert</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="80%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">Python/Shell<span class="level-label">Pro</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="70%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                                <div class="item">
+                                    <h3 class="level-title">R/Scala<span class="level-label">Knows</span></h3>
+                                    <div class="level-bar">
+                                        <div class="level-bar-inner" data-level="20%">
+                                        </div>                                      
+                                    </div><!--//level-bar-->                                 
+                                </div><!--//item-->
+                                
+                            </div>              
+                        </div><!--//content-->  
+                    </div><!--//section-inner-->                 
+                </aside><!--//section-->
+                
+                
+                <aside class="education aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Education</h2>
+                        <div class="content">
+                            <div class="item">                      
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> PhD Computer Science and Engineering</h3>
+                                <h4 class="university">The Chinese University of Hong Kong <span class="year">(2016-now)</span></h4>
+                            </div><!--//item-->
+                            <div class="item">
+                                <h3 class="title"><i class="fa fa-graduation-cap"></i> B.Eng Computer Science and Technology</h3>
+                                <h4 class="university">University of Science and Technology of China <span class="year">(2012-2016)</span></h4>
+                            </div><!--//item-->
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                            
+                <aside class="languages aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Languages</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Chinese:</strong></span>
+                                    <span class="level">Native Speaker <br class="visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> </span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>English:</strong></span>
+                                    <span class="level">Proficiency <br class="visible-sm visible-xs"/><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half"></i></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
 
-			<section id="COURSE" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>My Course</h2>
-						</header>
-						<header>
-							<h4>CSCI5570-Large Scale Data Processing Systems</h4>
-							<p>A connector for HUSKY</p>
-						</header>
-						<p>In This Course I learn much about large scale data systems and build a <a href="COURSE/CSCI5570/redis/index.html">Redis-connector</a> to <a href="http://www.husky-project.com/">HUSKY</a> with my friends.</p>
+                <aside class="interests aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Interests</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li class="item">
+                                    <span class="title"><strong>Musical Instruments:</strong></span>
+                                    <span class="level">piano, guitar <br class="visible-xs"/></span>
+                                </li><!--//item-->
+                                <li class="item">
+                                    <span class="title"><strong>Sports:</strong></span>
+                                    <span class="level">swimming, tennis, hiking <br class="visible-sm visible-xs"/></span>
+                                </li><!--//item-->
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="blog aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Latest Blog Posts</h2>
+                        <!--div id="rss-feeds" class="content">
+                        </div><!--//content---->
+			<p>君の名は。夢灯籠 [<a href="https://www.bilibili.com/video/av15304282/">vedio link</a>]</p>
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+                <aside class="list music aside section">
+                    <div class="section-inner">
+                        <h2 class="heading">Favourite coding music</h2>
+                        <div class="content">
+                            <ul class="list-unstyled">
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=2BlrbZNpOKM">Chopin - Op. 25, 12 Études No. 11 in A minor ("Winter Wind")</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=w0CvrKT4Zz4">Beethoven - Piano Sonata No. 14 in C♯ minor 3rd Movement</a></li>
+                                <li><i class="fa fa-headphones"></i> <a href="https://www.youtube.com/watch?v=ga4r6g7Ao04">Mozart Variations - 12 Variations on "Ah, vous dirai-je maman", K.265/300e</a></li>
+                            </ul>
+                        </div><!--//content-->
+                    </div><!--//section-inner-->
+                </aside><!--//section-->
+                
+              
+            </div><!--//secondary-->    
+        </div><!--//row-->
+    </div><!--//masonry-->
+    
+    <!-- ******FOOTER****** --> 
+    <footer class="footer">
+        <div class="container text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Template from <a href="http://themes.3rdwavemedia.com" target="_blank">here</a>, which is released under the Creative Commons Attribution 3.0 License. </small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="assets/plugins/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>    
+    <script type="text/javascript" src="assets/plugins/jquery-rss/dist/jquery.rss.min.js"></script> 
+    <!-- github calendar plugin -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/3.0.2/es6-promise.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-calendar/dist/github-calendar.min.js"></script>
+    <!-- github activity plugin -->
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="assets/js/main.js"></script>            
+</body>
+</html> 
 
-						<header>
-							<h4>ENGG5301-Information Theory</h4>
-						</header>
-						<p>I helped professor to scribe his notes on <a href="COURSE/ENGG5301/security.pdf">information security</a></p>
-
-						<header>
-							<h4>IERG5090-Advanced Networking and Protocols</h4>
-							<p>In this course I learned many techniques in networking and develop a tool in SDN(in development not finish)</p>
-						</header>
-
-						<header>
-							<h4>CSCI5160-Advanced Algorithms</h4>
-							<p>In this course I learned many approximation algorithms</p>
-						</header>
-					</div>
-					<a href="#TA" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-			<section id="TA" class="main">
-				<div class="container">
-					<!--span class="image fit primary"><img src="images/bg.jpg" alt="" /></span-->
-					<div class="content">
-						<header class="major">
-							<h2>My TA Experience</h2>
-						</header>
-
-						<header>
-							<h4>CSCI3150-Operating System</h4>
-							<p>Introduction to Multi-threading</p>
-						</header>
-							<p>In my TA work of Operating System, I give two tutorials on multi-threading. The first tutorial is about <a href="TA/CSCI3150/PThread/index.html">P-Thread</a>, the second tutorial is about <a href="TA/CSCI3150/OpenMP/index.html">OpenMP</a>.</p>
-					</div>
-					<a href="#BLOG" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-
-			<section id="BLOG" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>My Blogs</h2>
-						</header>
-						<p>Will present some technical/personel blogs here later</p>
-					</div>
-					<a href="#MUSIC" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-
-			<section id="MUSIC" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>My Music videos</h2>
-						</header>
-                        <!--p>君の名は。夢灯籠 [<a href="https://www.bilibili.com/video/av15304282/">vedio link</a>]</p-->
-					</div>
-					<a href="#PHOTO" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-
-			<section id="PHOTO" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>My PHOTO</h2>
-						</header>
-						<p>Will present some photos later</p>
-					</div>
-					<a href="#footer" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
-
-		<!-- Four -->
-		<!--
-			<section id="four" class="main">
-				<div class="container">
-					<div class="content">
-						<header class="major">
-							<h2>Elements</h2>
-						</header>
-						<section>
-							<h4>Text</h4>
-							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
-							<hr />
-							<header>
-								<h4>Heading with a Subtitle</h4>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<header>
-								<h5>Heading with a Subtitle</h5>
-								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
-							</header>
-							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
-							<hr />
-							<h2>Heading Level 2</h2>
-							<h3>Heading Level 3</h3>
-							<h4>Heading Level 4</h4>
-							<h5>Heading Level 5</h5>
-							<h6>Heading Level 6</h6>
-							<hr />
-							<h5>Blockquote</h5>
-							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-							<h5>Preformatted</h5>
-							<pre><code>i = 0;
-
-while (!deck.isInOrder()) {
-print 'Iteration ' + i;
-deck.shuffle();
-i++;
-}
-
-print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-						</section>
-
-						<section>
-							<h4>Lists</h4>
-							<div class="row">
-								<div class="6u 12u$(medium)">
-									<h5>Unordered</h5>
-									<ul>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-									<h5>Alternate</h5>
-									<ul class="alt">
-										<li>Dolor pulvinar etiam.</li>
-										<li>Sagittis adipiscing.</li>
-										<li>Felis enim feugiat.</li>
-									</ul>
-								</div>
-								<div class="6u$ 12u(medium)">
-									<h5>Ordered</h5>
-									<ol>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis viverra.</li>
-										<li>Felis enim feugiat.</li>
-										<li>Dolor pulvinar etiam.</li>
-										<li>Etiam vel felis lorem.</li>
-										<li>Felis enim et feugiat.</li>
-									</ol>
-									<h5>Icons</h5>
-									<ul class="icons">
-										<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-									</ul>
-								</div>
-							</div>
-							<h5>Actions</h5>
-							<ul class="actions">
-								<li><a href="#" class="button special">Default</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions small">
-								<li><a href="#" class="button special small">Small</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<div class="row">
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special">Default</a></li>
-										<li><a href="#" class="button">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small">Small</a></li>
-										<li><a href="#" class="button small">Small</a></li>
-									</ul>
-								</div>
-								<div class="6u 12u$(small)">
-									<ul class="actions vertical">
-										<li><a href="#" class="button special fit">Default</a></li>
-										<li><a href="#" class="button fit">Default</a></li>
-									</ul>
-								</div>
-								<div class="6u$ 12u$(small)">
-									<ul class="actions vertical small">
-										<li><a href="#" class="button special small fit">Small</a></li>
-										<li><a href="#" class="button small fit">Small</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-
-						<section>
-							<h4>Table</h4>
-							<h5>Default</h5>
-							<div class="table-wrapper">
-								<table>
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-
-							<h5>Alternate</h5>
-							<div class="table-wrapper">
-								<table class="alt">
-									<thead>
-										<tr>
-											<th>Name</th>
-											<th>Description</th>
-											<th>Price</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>Item One</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Two</td>
-											<td>Vis ac commodo adipiscing arcu aliquet.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Three</td>
-											<td> Morbi faucibus arcu accumsan lorem.</td>
-											<td>29.99</td>
-										</tr>
-										<tr>
-											<td>Item Four</td>
-											<td>Vitae integer tempus condimentum.</td>
-											<td>19.99</td>
-										</tr>
-										<tr>
-											<td>Item Five</td>
-											<td>Ante turpis integer aliquet porttitor.</td>
-											<td>29.99</td>
-										</tr>
-									</tbody>
-									<tfoot>
-										<tr>
-											<td colspan="2"></td>
-											<td>100.00</td>
-										</tr>
-									</tfoot>
-								</table>
-							</div>
-						</section>
-
-						<section>
-							<h4>Buttons</h4>
-							<ul class="actions">
-								<li><a href="#" class="button special">Special</a></li>
-								<li><a href="#" class="button">Default</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button">Default</a></li>
-								<li><a href="#" class="button small">Small</a></li>
-							</ul>
-							<ul class="actions fit">
-								<li><a href="#" class="button special fit">Fit</a></li>
-								<li><a href="#" class="button fit">Fit</a></li>
-							</ul>
-							<ul class="actions fit small">
-								<li><a href="#" class="button special fit small">Fit + Small</a></li>
-								<li><a href="#" class="button fit small">Fit + Small</a></li>
-							</ul>
-							<ul class="actions">
-								<li><a href="#" class="button special icon fa-download">Icon</a></li>
-								<li><a href="#" class="button icon fa-download">Icon</a></li>
-							</ul>
-							<ul class="actions">
-								<li><span class="button special disabled">Disabled</span></li>
-								<li><span class="button disabled">Disabled</span></li>
-							</ul>
-						</section>
-
-						<section>
-							<h4>Form</h4>
-							<form method="post" action="#">
-								<div class="row uniform">
-									<div class="6u 12u$(xsmall)">
-										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
-									</div>
-									<div class="6u$ 12u$(xsmall)">
-										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
-									</div>
-									<div class="12u$">
-										<div class="select-wrapper">
-											<select name="demo-category" id="demo-category">
-												<option value="">- Category -</option>
-												<option value="1">Manufacturing</option>
-												<option value="1">Shipping</option>
-												<option value="1">Administration</option>
-												<option value="1">Human Resources</option>
-											</select>
-										</div>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-										<label for="demo-priority-low">Low</label>
-									</div>
-									<div class="4u 12u$(small)">
-										<input type="radio" id="demo-priority-normal" name="demo-priority">
-										<label for="demo-priority-normal">Normal</label>
-									</div>
-									<div class="4u$ 12u$(small)">
-										<input type="radio" id="demo-priority-high" name="demo-priority">
-										<label for="demo-priority-high">High</label>
-									</div>
-									<div class="6u 12u$(small)">
-										<input type="checkbox" id="demo-copy" name="demo-copy">
-										<label for="demo-copy">Email me a copy</label>
-									</div>
-									<div class="6u$ 12u$(small)">
-										<input type="checkbox" id="demo-human" name="demo-human" checked>
-										<label for="demo-human">Not a robot</label>
-									</div>
-									<div class="12u$">
-										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-									</div>
-									<div class="12u$">
-										<ul class="actions">
-											<li><input type="submit" value="Send Message" class="special" /></li>
-											<li><input type="reset" value="Reset" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</section>
-
-						<section>
-							<h4>Image</h4>
-							<h5>Fit</h5>
-							<div class="box alt">
-								<div class="row uniform 50%">
-									<div class="12u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-									<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
-								</div>
-							</div>
-							<h5>Left &amp; Right</h5>
-							<p><span class="image left"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-							<p><span class="image right"><img src="images/pic05.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
-						</section>
-
-					</div>
-					<a href="#footer" class="goto-next scrolly">Next</a>
-				</div>
-			</section>
--->
-
-		<!-- Footer -->
-			<section id="footer">
-				<div class="container">
-					<header class="major">
-						<h2>Contact With Me</h2>
-					</header>
-					<!--form method="post" action="#">
-						<div class="row uniform">
-							<div class="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-							<div class="6u$ 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-							<div class="12u$"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-							<div class="12u$">
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" class="special" /></li>
-								</ul>
-							</div>
-						</div>
-					</form-->
-					<!--ul class="icons"-->
-						<li><a href="https://github.com/ukulililixl" class="icon alt fa-github"><span class="label">Github</span></a> ukulililixl</li>
-						<li><a href="https://gmail.com" class="icon alt fa-envelope"><span class="label">Email</span></a>ukulililixl@gmail.com</li>
-					<!--/ul-->
-					<a href="#header" class="button special scrolly">Start</a>
-				</div>
-				<footer>
-					<!--ul class="icons">
-						<li><a href="https://github.com/ukulililixl" class="icon alt fa-github"><span class="label">Github</span></a></li>
-						<li><a href="https://www.facebook.com/" class="icon alt fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon alt fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon alt fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon alt fa-envelope"><span class="label">Email</span></a></li>
-					</ul-->
-					<ul class="copyright">
-						<li>&copy; Ukulililixl</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Demo Images: <a href="http://daxiangguan.com/">寂地</a></li>
-					</ul>
-				</footer>
-			</section>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
-</html>
