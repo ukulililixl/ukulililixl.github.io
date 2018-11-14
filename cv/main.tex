@@ -1,204 +1,249 @@
-%% start of file `template.tex'.
-%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{makecell}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
-
-% moderncv themes
-\moderncvstyle{casual}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
-\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
-%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
-%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
-
-% character encoding
-\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
-%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
-
-% adjust the page margins
-\usepackage[scale=0.75]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
-%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
-
-% personal data
-\name{Xiaolu}{Li}
-%\title{Resumé title}                               % optional, remove / comment the line if not wanted
-\address{Room 118, SHB}{CUHK}{Shatin, Hong Kong}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
-\phone[mobile]{(852)54273479}                   % optional, remove / comment the line if not wanted
-%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
-%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
-\email{ukulililixl@gmail.com}                               % optional, remove / comment the line if not wanted
-\homepage{ukulililixl.github.io}                         % optional, remove / comment the line if not wanted
-%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
-%\photo[64pt][0.4pt]{figs/me.jpg}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
-%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
-
-% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
-%\makeatletter
-%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
-%\makeatother
-%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
-
-% bibliography with mutiple entries
-%\usepackage{multibib}
-%\newcites{book,misc}{{Books},{Others}}
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
 \begin{document}
-%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
-%-----       resume       ---------------------------------------------------------
-\makecvtitle
 
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://ukulililixl.github.io/}{\Large Li Xiaolu}} & Email : \href{mailto:ukulililixl@gmail.com}{ukulililixl@gmail.com}\\
+  \href{https://ukulililixl.github.io/}{https://ukulililixl.github.io} & Location: Hong Kong \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
 \section{Education}
-\cventry{2016--Now}{PhD}{Computer Science and Engineering}{The Chinese University of Hong Kong}{}{}  %{\textit{Grade}}{Description}  % arguments 3 to 6 can be left empty
-%\cventry{2012--2016}{B.Eng}{Computer Science and Technology}{University of Science and Technology of China}{}{Grade: 3.71/4.3 Average: 88.03/100 Ranking: 13/103} %{\textit{Grade}}{Description}
-\cventry{2012--2016}{B.Eng}{Computer Science and Technology}{University of Science and Technology of China}{}{Grade: 3.71/4.3 Average: 88.03/100 Ranking: 13/103} %{\textit{Grade}}{Description}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {The Chinese University of Hong Kong}{Hong Kong}
+      {PhD of Computer Science and Engineering;  }{Aug. 2016 -- Now}
+    \resumeSubheading
+      {University of Science and Technology of China}{Anhui, China}
+      {Bachelor of Computer Science and Technology;  GPA: 3.71 (88.03/100.00)}{Aug. 2012 -- June. 2016}
+  \resumeSubHeadingListEnd
 
-\section{Working Experience}
-\cventry{2015--2016}{Research Assistant}{Computer Science and Engineering}{The Chinese University of Hong Kong}{}{}%{I help to build a data recovery prototype in HDFS.}
-%\section{Master thesis}
-%\cvitem{title}{\emph{Title}}
-%\cvitem{supervisors}{Supervisors}
-%\cvitem{description}{Short thesis abstract}
+%-----------Publication---------------
+\section{Publication}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Repair Pipelining for Erasure-Coded Storage}{}
+      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
+    \resumeSubheading
+      {Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}
+      {\makecell[l]{Yuchong Hu, {\bf Xiaolu Li}, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng. \\ACM Transaction on Storage  (TOS), 13(4), pp. 33:1-33:24,
+      November 2017}}{}
 
-\section{Projects}
-%\subsection{Vocational}
-% \cventry{2017}{A measurement tool simulator in Open Network Operating System}{course project}{}{}{
-% \begin{itemize}
-%  \item I help to design the framework of our measurement tool application including command line and packet processing framework.
-%  \item I pass on the packet information to the interface of my teammate for her to implement sketch algorithms.
-% \end{itemize}}
-\cventry{2016-2017}{Repair Pipelining for Erasure-Coded Storage}{}{}{}{%My contribution:%\newline{}%
-%Detailed achievements:%
-\begin{itemize}
-\item Integrate our system ECPipe into HDFS and Quantcast File System.
-\item Source code: \url{http://adslab.cse.cuhk.edu.hk/software/ecpipe/} 
-\end{itemize}
-}
-\cventry{2015--2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}{}{}{
-\begin{itemize}
-\item Build a new recovery prototype DoubleR in HDFS to support Double Regenerating Codes.
-\item Design a set of erasure coding interfaces to support state-of-the-arts erasure codes.
-\item Source code: \url{http://adslab.cse.cuhk.edu.hk/software/doubler/}
-\end{itemize}
-}
-%\subsection{Miscellaneous}
-%\cventry{2014}{Student Cluster Competition}{Ranking $3^{rd}$}{SC14, New Orleans}{}{A teammate and I worked on optimizing a molecular dynamic software called \texttt{NAMD} on our student cluster. We got the highest score for this application.}
 
-\section{Publications}
-%\cventry{2017}{Repair Pipelining for Erasure-Coded Storage}{Runhui Li, Xiaolu Li, Patrick P. C. Lee and Qun Huang}{The 2017 USENIX Annual Technical Conference}{Santa Clara, California, July 2017. (AR: 60/283 = 21.2\%, CCF Rank A)}{}
-\cventry{2017}{Repair Pipelining for Erasure-Coded Storage}{Runhui Li, Xiaolu Li, Patrick P. C. Lee and Qun Huang}{The 2017 USENIX Annual Technical Conference}{Santa Clara, California, July 2017. (AR: 60/283 = 21.2\%)}{}
-%\cventry{2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng}{ACM Transactions on Storage (TOS)}{13(4), pp. 33:1-33:24, November 2017 (CCF Rank A)}{}
-\cventry{2017}{Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{Yuchong Hu, Xiaolu Li, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng}{ACM Transactions on Storage (TOS)}{13(4), pp. 33:1-33:24, November 2017}{}
-% \section{Languages}
-% \cvitemwithcomment{Language 1}{Skill level}{Comment}
-% \cvitemwithcomment{Language 2}{Skill level}{Comment}
-% \cvitemwithcomment{Language 3}{Skill level}{Comment}
+  \resumeSubHeadingListEnd
 
-%\section{Computer skills}
-%\cvdoubleitem{category 1}{XXX, YYY, ZZZ}{category 4}{XXX, YYY, ZZZ}
-%\cvdoubleitem{category 2}{XXX, YYY, ZZZ}{category 5}{XXX, YYY, ZZZ}
-%\cvdoubleitem{category 3}{XXX, YYY, ZZZ}{category 6}{XXX, YYY, ZZZ}
-%
-%\section{Interests}
-%\cvitem{hobby 1}{Description}
-%\cvitem{hobby 2}{Description}
-%\cvitem{hobby 3}{Description}
-%
+%-----------Project-------------------
+\section{Selected Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ECPipe}{Sept. 2016 - Feb. 2017}
+      {Source: https://http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
+      \resumeItemListStart
+        \resumeItem{}{We build a prototype called ECPipe which borrows the idea of cache-and-forward from network into distributed storage system for the purpose to improve the repair performance. We improve the repair performance from $O(k)$ to $O(1)$ in homogeneous network settings.}
+	\resumeItem{}{We integrate our prototype ECPipe into large scale distributed storage systems including HDFS and QuantcastFS. The repair performance in both of the two systems are improved using our recovery prototype.}
+      \resumeItemListEnd
+    \resumeSubheading
+      {DoubleR}{Feb. 2016 - March. 2017}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/doubler/}{}
+      \resumeItemListStart
+        \resumeItem{}{We build a recovery prototype called DoubleR atop HDFS and apply a new erasure code called Double Regenerating Code to improve the repair performance in hierarchical datacenters. We apply the layering technique to aggregate traffic in the same region before data are transfered cross region to reduce cross-region traffic.}
+	\resumeItem{}{We implement many state-of-the-art erasure codes in HDFS and shows that their repair performance is improved using our recovery prototype.}
+      \resumeItemListEnd
+    \resumeSubSubheading
+      {OpenEC}{Aug. 2017 - Now}
+      \resumeItemListStart
+        \resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
+      \resumeItemListEnd
 
+
+  \resumeSubHeadingListEnd
+
+%-----------Teaching------------------
+ \section{Teaching}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Operating System}{2016 Fall}
+    \resumeSubItem{Introduction to Cloud Computing and Storage}{2017 Fall, 2018 Fall}
+    \resumeSubItem{Data Communication and Computer Networks}{2018 Spring}
+  \resumeSubHeadingListEnd
+
+%-----------Skill----------------------
 \section{Skills}
-\cvlistitem{C/C++, java, python.}
-\cvlistitem{4+ year experience of developing in Linux.}
-\cvlistitem{3+ year experience of developing in distributed systems and hacking open-sourced distributed system such as HDFS.}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Language}{C/C++. Java. Python. R.}
+    \resumeSubItem{Distributed Systems}{Hadoop. OpenStack Swift.}
+    \resumeSubItem{In-Memory Systems}{Redis. Alluxio.}
+  \resumeSubHeadingListEnd
 
-\section{Teaching}
-\cventry{CSCI3150}{Operating Systems}{2016 Fall}{}{}{
-\begin{itemize}
-\item Lab: Prepare labs and tutorials for multi-threading programming using Pthreads and OpenMP.
-\end{itemize}
-}
-\cventry{CSCI4180}{Introduction to Cloud Computing and Storage}{2017 Fall}{}{}{
-\begin{itemize}
-\item Platform: Build a private cloud platform using OpenStack for our course in a local cluster.
-\item Tutorial: Prepare tutorial for introduction to Amazon EC2 and Azure.
-\item Lab: Prepare lab for deduplication.
-\end{itemize}
-}
-\cventry{CSCI4430}{Data Communication and Computer Networks}{2018 Spring}{}{}{
-\begin{itemize}
-\item Lab: Prepare lab for Go-back-N protocol.
-\end{itemize}
-}
-
-% \section{Interests}
-% \cvlistitem{I feel excited about distributed system problems and enjoy hacking into system softwares.}
-% \cvlistitem{I enjoy playing musical instruments.}
-% \cvlistitem{I love swimming and tennis.}
-
-\section{Awards}
-\cventry{2016-Now}{CUHK Postgraduate Studentship}{}{}{}{}
-\cventry{2015}{Excellent Student Scholarship}{Grade3}{}{}{}
-\cventry{2014}{Student Cluster Competition}{Ranking $3^{rd}$ (teamwork)}{ACM/IEEE Supercomputing Conference}{New Orleans}{}
-\cventry{2014}{Guanghua Education Scholarship}{}{}{}{}
-\cventry{2013}{Excellent Student Scholarship}{Grade 2}{}{}{}
-\cventry{2012}{Excellent Freshman Scholarship}{Grade 3}{}{}{}
-
-%\section{Extra 2}
-%\cvlistdoubleitem{Item 1}{Item 4}
-%\cvlistdoubleitem{Item 2}{Item 5\cite{book1}}
-%\cvlistdoubleitem{Item 3}{Item 6. Like item 3 in the single column list before, this item is particularly long to wrap over several lines.}
-
-% \section{References}
-% \begin{cvcolumns}
-%   \cvcolumn{Category 1}{\begin{itemize}\item Person 1\item Person 2\item Person 3\end{itemize}}
-%   \cvcolumn{Category 2}{Amongst others:\begin{itemize}\item Person 1, and\item Person 2\end{itemize}(more upon request)}
-%   \cvcolumn[0.5]{All the rest \& some more}{\textit{That} person, and \textbf{those} also (all available upon request).}
-% \end{cvcolumns}
-
-% Publications from a BibTeX file without multibib
-%  for numerical labels: \renewcommand{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}% CONSIDER MERGING WITH PREAMBLE PART
-%  to redefine the heading string ("Publications"): \renewcommand{\refname}{Articles}
-\nocite{*}
-\bibliographystyle{plain}
-\bibliography{publications}                        % 'publications' is the name of a BibTeX file
-
-% Publications from a BibTeX file using the multibib package
-%\section{Publications}
-%\nocitebook{book1,book2}
-%\bibliographystylebook{plain}
-%\bibliographybook{publications}                   % 'publications' is the name of a BibTeX file
-%\nocitemisc{misc1,misc2,misc3}
-%\bibliographystylemisc{plain}
-%\bibliographymisc{publications}                   % 'publications' is the name of a BibTeX file
-
-\clearpage
-% %-----       letter       ---------------------------------------------------------
-% % recipient data
-% \recipient{Company Recruitment team}{Company, Inc.\\123 somestreet\\some city}
-% \date{January 01, 1984}
-% \opening{Dear Sir or Madam,}
-% \closing{Yours faithfully,}
-% \enclosure[Attached]{curriculum vit\ae{}}          % use an optional argument to use a string other than "Enclosure", or redefine \enclname
-% \makelettertitle
+\section{Selected Award}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Student Cluster Competition}{Ranking $3^rd$ (team work),  ACM/IEEE SC14, New Orleans}
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+% \section{Experience}
+%   \resumeSubHeadingListStart
 % 
-% Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
+%     \resumeSubheading
+%       {Google}{Mountain View, CA}
+%       {Software Engineer}{Oct 2016 - Present}
+%       \resumeItemListStart
+%         \resumeItem{Tensorflow}
+%           {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+%         \resumeItem{Apache Beam}
+%           {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+%       \resumeItemListEnd
 % 
-% Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+%     \resumeSubheading
+%       {Coursera}{Mountain View, CA}
+%       {Senior Software Engineer}{Jan 2014 - Oct 2016}
+%       \resumeItemListStart
+%         \resumeItem{Notifications}
+%           {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
+%         \resumeItem{Nostos}
+%           {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+%         \resumeItem{Workflows}
+%           {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+%         \resumeItem{Data Collection}
+%           {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
+%         \resumeItem{Dev Environment}
+%           {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
+%         \resumeItem{Data Warehousing}
+%           {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
+%         \resumeItem{Recommendations}
+%           {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
+%         \resumeItem{Content Discovery}
+%           {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
+%         \resumeItem{Course Dashboards}
+%           {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+%       \resumeItemListEnd
 % 
-% Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+%     \resumeSubheading
+%       {Lucena Research}{Atlanta, GA}
+%       {Data Scientist}{Summer 2012 and 2013}
+%       \resumeItemListStart
+%         \resumeItem{Portfolio Management}
+%           {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+%         \resumeItem{QuantDesk}
+%           {Python backend for a web application used by hedge fund managers for portfolio management.}
+%       \resumeItemListEnd
 % 
-% Albert Einstein discovered that $e=mc^2$ in 1905.
+%     \resumeSubheading
+%       {Georgia Institute of Technology}{Atlanta, GA}
+%       {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+%       \resumeItemListStart
+%         \resumeItem{Research Assistant - Machine Learning}
+%           {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
+%         \resumeItem{Teaching Assistant - Computational Investing}
+%           {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+%       \resumeItemListEnd
 % 
-% \[ e=\lim_{n \to \infty} \left(1+\frac{1}{n}\right)^n \]
+%   \resumeSubHeadingListEnd
 % 
-% \makeletterclosing
 % 
-% %\clearpage\end{CJK*}                              % if you are typesetting your resume in Chinese using CJK; the \clearpage is required for fancyhdr to work correctly with CJK, though it kills the page numbering by making \lastpage undefined
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+% 
+% %
+% %--------PROGRAMMING SKILLS------------
+% %\section{Programming Skills}
+% %  \resumeSubHeadingListStart
+% %    \item{
+% %      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+% %      \hfill
+% %      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+% %    }
+% %  \resumeSubHeadingListEnd
+% 
+% 
+% %-------------------------------------------
 \end{document}
-
-
-%% end of file `template.tex'.
