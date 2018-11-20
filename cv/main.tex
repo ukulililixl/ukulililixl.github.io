@@ -118,22 +118,28 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {ECPipe}{Sept. 2016 - Feb. 2017}
-      {Source: https://http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
       \resumeItemListStart
-        \resumeItem{}{We build a prototype called ECPipe which borrows the idea of cache-and-forward from network into distributed storage system for the purpose to improve the repair performance. We improve the repair performance from $O(k)$ to $O(1)$ in homogeneous network settings.}
-	\resumeItem{}{We integrate our prototype ECPipe into large scale distributed storage systems including HDFS and QuantcastFS. The repair performance in both of the two systems are improved using our recovery prototype.}
+        \resumeItem{}{ECPipe enables constant time repair operation in erasure-coded distributed storage system.}
+        \resumeItem{}{I integrate our ECPipe into HDFS-RAID as well as QuantcastFS and improve the repair performance.}
+        %\resumeItem{}{We build a prototype called ECPipe which borrows the idea of cache-and-forward from network into distributed storage system for the purpose to improve the repair performance. We improve the repair performance from $O(k)$ to $O(1)$ in homogeneous network settings.}
+	%\resumeItem{}{We integrate our prototype ECPipe into large scale distributed storage systems including HDFS and QuantcastFS. The repair performance in both of the two systems are improved using our recovery prototype.}
       \resumeItemListEnd
     \resumeSubheading
       {DoubleR}{Feb. 2016 - March. 2017}
       {Source: http://adslab.cse.cuhk.edu.hk/software/doubler/}{}
       \resumeItemListStart
-        \resumeItem{}{We build a recovery prototype called DoubleR atop HDFS and apply a new erasure code called Double Regenerating Code to improve the repair performance in hierarchical datacenters. We apply the layering technique to aggregate traffic in the same region before data are transfered cross region to reduce cross-region traffic.}
-	\resumeItem{}{We implement many state-of-the-art erasure codes in HDFS and shows that their repair performance is improved using our recovery prototype.}
+        \resumeItem{}{DoubleR is a recovery prototype to improve repair performance in hierarchical datacenters.}
+	\resumeItem{}{I build the prototype and improve repair performance for state-of-the-art erasure codes in HDFS-RAID.}
+        %\resumeItem{}{We build a recovery prototype called DoubleR atop HDFS and apply a new erasure code called Double Regenerating Code to improve the repair performance in hierarchical datacenters. We apply the layering technique to aggregate traffic in the same region before data are transfered cross region to reduce cross-region traffic.}
+	%\resumeItem{}{We implement many state-of-the-art erasure codes in HDFS and shows that their repair performance is improved using our recovery prototype.}
       \resumeItemListEnd
     \resumeSubSubheading
       {OpenEC}{Aug. 2017 - Now}
       \resumeItemListStart
-        \resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
+        \resumeItem{}{OpenEC is a new erasure coding management system that easily runs atop multiple distributed storage systems to manage erasure-coded data. It presents simple programming model for erasure coding designers to design new codes. It also provides general storage system interfaces for integration.}
+	\resumeItem{}{I build the system OpenEC to provide previous features for storage system developers and code designers.}
+        %\resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
       \resumeItemListEnd
 
 
@@ -142,22 +148,22 @@
 %-----------Teaching------------------
  \section{Teaching}
   \resumeSubHeadingListStart
-    \resumeSubItem{Operating System}{2016 Fall}
-    \resumeSubItem{Introduction to Cloud Computing and Storage}{2017 Fall, 2018 Fall}
-    \resumeSubItem{Data Communication and Computer Networks}{2018 Spring}
+    \resumeSubItem{Operating System:}{Multi-threading.}
+    \resumeSubItem{Introduction to Cloud Computing and Storage:}{PageRank algorithm. Data deduplication.}
+    \resumeSubItem{Data Communication and Computer Networks:}{Go-back-N protocol.}
   \resumeSubHeadingListEnd
 
 %-----------Skill----------------------
 \section{Skills}
   \resumeSubHeadingListStart
-    \resumeSubItem{Programming Language}{C/C++. Java. Python. R.}
-    \resumeSubItem{Distributed Systems}{Hadoop. OpenStack Swift.}
-    \resumeSubItem{In-Memory Systems}{Redis. Alluxio.}
+    \resumeSubItem{Programming Language:}{C/C++. Java. Python. R.}
+    \resumeSubItem{Distributed Systems:}{Hadoop. OpenStack Swift.}
+    \resumeSubItem{In-Memory Systems:}{Redis. Alluxio.}
   \resumeSubHeadingListEnd
 
 \section{Selected Award}
   \resumeSubHeadingListStart
-    \resumeSubItem{Student Cluster Competition}{Ranking $3^rd$ (team work),  ACM/IEEE SC14, New Orleans}
+    \resumeSubItem{Student Cluster Competition:}{Ranking $3^rd$ (team work),  ACM/IEEE SC14, New Orleans}
   \resumeSubHeadingListEnd
 %-----------EXPERIENCE-----------------
 % \section{Experience}
