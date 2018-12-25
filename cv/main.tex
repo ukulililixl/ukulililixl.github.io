@@ -106,12 +106,12 @@
       {\makecell[l]{OpenEC: Toward Unified and Configurable Erasure Coding Management in \\Distributed Storage Systems}}{}
       {\makecell[l]{{\bf Xiaolu Li}, Runhui Li, Patrick P. C. Lee, and Yuchong Hu. \\USENIX FAST 2019. (AR: 26/145 = 17.9\%)}}{}
     \resumeSubheading
-      {Repair Pipelining for Erasure-Coded Storage}{}
-      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
-    \resumeSubheading
       {Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}
       {\makecell[l]{Yuchong Hu, {\bf Xiaolu Li}, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng. \\ACM Transaction on Storage  (TOS), 13(4), pp. 33:1-33:24,
       November 2017}}{}
+    \resumeSubheading
+      {Repair Pipelining for Erasure-Coded Storage}{}
+      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
 
 
   \resumeSubHeadingListEnd
@@ -119,14 +119,12 @@
 %-----------Project-------------------
 \section{Selected Projects}
   \resumeSubHeadingListStart
-    \resumeSubheading
-      {ECPipe}{Sept. 2016 - Feb. 2017}
-      {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
+    \resumeSubSubheading
+      {OpenEC}{Aug. 2017 - Now}
       \resumeItemListStart
-        \resumeItem{}{ECPipe enables constant time repair operation in erasure-coded distributed storage system.}
-        \resumeItem{}{I integrate our ECPipe into HDFS-RAID as well as QuantcastFS and improve the repair performance.}
-        %\resumeItem{}{We build a prototype called ECPipe which borrows the idea of cache-and-forward from network into distributed storage system for the purpose to improve the repair performance. We improve the repair performance from $O(k)$ to $O(1)$ in homogeneous network settings.}
-	%\resumeItem{}{We integrate our prototype ECPipe into large scale distributed storage systems including HDFS and QuantcastFS. The repair performance in both of the two systems are improved using our recovery prototype.}
+        \resumeItem{}{OpenEC is a new erasure coding management system that easily runs atop multiple distributed storage systems to manage erasure-coded data. It presents simple programming model for erasure coding designers to design new codes. It also provides general storage system interfaces for integration. OpenEC takes over all erasure coding operations for both sides.}
+	\resumeItem{}{I build the system OpenEC to provide previous features for storage system developers and code designers.}
+        %\resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
       \resumeItemListEnd
     \resumeSubheading
       {DoubleR}{Feb. 2016 - March. 2017}
@@ -137,14 +135,15 @@
         %\resumeItem{}{We build a recovery prototype called DoubleR atop HDFS and apply a new erasure code called Double Regenerating Code to improve the repair performance in hierarchical datacenters. We apply the layering technique to aggregate traffic in the same region before data are transfered cross region to reduce cross-region traffic.}
 	%\resumeItem{}{We implement many state-of-the-art erasure codes in HDFS and shows that their repair performance is improved using our recovery prototype.}
       \resumeItemListEnd
-    \resumeSubSubheading
-      {OpenEC}{Aug. 2017 - Now}
+    \resumeSubheading
+      {ECPipe}{Sept. 2016 - Feb. 2017}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
       \resumeItemListStart
-        \resumeItem{}{OpenEC is a new erasure coding management system that easily runs atop multiple distributed storage systems to manage erasure-coded data. It presents simple programming model for erasure coding designers to design new codes. It also provides general storage system interfaces for integration. OpenEC takes over all erasure coding operations for both sides.}
-	\resumeItem{}{I build the system OpenEC to provide previous features for storage system developers and code designers.}
-        %\resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
+        \resumeItem{}{ECPipe enables constant time repair operation in erasure-coded distributed storage system.}
+        \resumeItem{}{I integrate our ECPipe into HDFS-RAID as well as QuantcastFS and improve the repair performance.}
+        %\resumeItem{}{We build a prototype called ECPipe which borrows the idea of cache-and-forward from network into distributed storage system for the purpose to improve the repair performance. We improve the repair performance from $O(k)$ to $O(1)$ in homogeneous network settings.}
+	%\resumeItem{}{We integrate our prototype ECPipe into large scale distributed storage systems including HDFS and QuantcastFS. The repair performance in both of the two systems are improved using our recovery prototype.}
       \resumeItemListEnd
-
 
   \resumeSubHeadingListEnd
 
