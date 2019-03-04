@@ -103,6 +103,9 @@
 \section{Publication}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage}}{}
+      {\makecell[l]{Zhirong Shen, {\bf Xiaolu Li} and Patrick P. C. Lee. \\IEEE/IFIP DSN 2019. (AR: 54/252 = 21.4\%)}}{}
+    \resumeSubheading
       {\makecell[l]{OpenEC: Toward Unified and Configurable Erasure Coding Management in \\Distributed Storage Systems}}{}
       {\makecell[l]{{\bf Xiaolu Li}, Runhui Li, Patrick P. C. Lee, and Yuchong Hu. \\USENIX FAST 2019. (AR: 26/145 = 17.9\%)}}{}
     \resumeSubheading
@@ -119,12 +122,14 @@
 %-----------Project-------------------
 \section{Selected Projects}
   \resumeSubHeadingListStart
-    \resumeSubSubheading
-      {OpenEC}{Aug. 2017 - Now}
+    \resumeSubheading
+      {OpenEC}{Aug. 2017 - Sept. 2018}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/openec/}{}
       \resumeItemListStart
-        \resumeItem{}{OpenEC is a new erasure coding management system that easily runs atop multiple distributed storage systems to manage erasure-coded data. It presents simple programming model for erasure coding designers to design new codes. It also provides general storage system interfaces for integration. OpenEC takes over all erasure coding operations for both sides.}
-	\resumeItem{}{I build the system OpenEC to provide previous features for storage system developers and code designers.}
-        %\resumeItem{}{We are building a new erasure coding system which can easily run atop multiple distributed storage systems to manage erasure-coded data. On the one hand, we make it easier for erasure coding designers to design a new code using our new programming abstraction. On the other hand, we make it easier for system developers to apply new erasure codes into their system without much kernel modifications.}
+        \resumeItem{}{OpenEC is a unified and configurable erasure coding management system that easily runs atop multiple distributed storage systems to manage erasure-coded data. It presents simple programming model for erasure coding designers to design new erasure coding solutions, including new erasure codes and repair algorithms. It also provides general interfaces for integration into storage systems.}
+	\resumeItem{}{I build OpenEC prototype and validate it atop Hadoop 3.0 HDFS, HDFS-RAID and Quantcast File System.}
+        %\resumeItem{}{We build a recovery prototype called DoubleR atop HDFS and apply a new erasure code called Double Regenerating Code to improve the repair performance in hierarchical datacenters. We apply the layering technique to aggregate traffic in the same region before data are transfered cross region to reduce cross-region traffic.}
+	%\resumeItem{}{We implement many state-of-the-art erasure codes in HDFS and shows that their repair performance is improved using our recovery prototype.}
       \resumeItemListEnd
     \resumeSubheading
       {DoubleR}{Feb. 2016 - March. 2017}
