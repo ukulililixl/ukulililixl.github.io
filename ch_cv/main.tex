@@ -1,0 +1,304 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{makecell}
+
+% for Chinese
+\usepackage{xeCJK}
+\setCJKmainfont{SimHei}
+% end for Chinese
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://ukulililixl.github.io/}{\Large 李晓露}} & \href{mailto:ukulililixl@gmail.com}{ukulililixl@gmail.com}\\
+  \href{https://ukulililixl.github.io/}{https://ukulililixl.github.io} & 852-54273479 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{教育经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {博士}{香港中文大学}
+      {计算机科学与工程}{2016.8 -- 2020.7}
+    \resumeSubheading
+      {学士}{中国科学技术大学}
+      {计算机科学与技术; GPA: 3.71 (88.03/100.00)}{2012.8 -- 2016.6}
+  \resumeSubHeadingListEnd
+
+%-----------Publication---------------
+\section{论文}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation}}{}
+      {\makecell[l]{{\bf Xiaolu Li}, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. }}{(在投)}
+    \resumeSubheading
+      {\makecell[l]{Repair Pipelining for Erasure-Coded Storage: Algorithms and Evaluation.}}{}
+      {\makecell[l]{{\bf Xiaolu Li}, Zuoru Yang, Jinhong Li, Runhui Li, Patrick P. C. Lee, Qun Huang and Yuchong Hu. \\To appear in ACM Transaction on Storage (TOS).}}{}
+    \resumeSubheading
+      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage}}{}
+      {\makecell[l]{Zhirong Shen, {\bf Xiaolu Li} and Patrick P. C. Lee. \\IEEE/IFIP DSN 2019. (AR: 54/252 = 21.4\%)}}{}
+    \resumeSubheading
+      {\makecell[l]{OpenEC: Toward Unified and Configurable Erasure Coding Management in \\Distributed Storage Systems}}{}
+      {\makecell[l]{{\bf Xiaolu Li}, Runhui Li, Patrick P. C. Lee, and Yuchong Hu. \\USENIX FAST 2019. (AR: 26/145 = 17.9\%)}}{}
+    \resumeSubheading
+      {Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}
+      {\makecell[l]{Yuchong Hu, {\bf Xiaolu Li}, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng. \\ACM Transaction on Storage  (TOS), 13(4), pp. 33:1-33:24,
+      November 2017}}{}
+    \resumeSubheading
+      {Repair Pipelining for Erasure-Coded Storage}{}
+      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
+
+
+  \resumeSubHeadingListEnd
+
+%-----------Project-------------------
+\section{项目}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {OpenEC}{}
+      {源码: http://adslab.cse.cuhk.edu.hk/software/openec/}{}
+      \resumeItemListStart
+        \resumeItem{}{为了提升纠删码在分布式存储系统中的可用性，研究人员从理论上设计了新的，更实用的纠删码，也提出了更有效的数据修复算法。然而，将这些新的纠删码解决方案应用到现有的分布式存储系统中是一个非常有挑战性的工作。这需要大量的修改分布式存储系统的工作流程。
+    为了解决这个问题，我们为分布式存储系统设计了一个统一的，可编程控制的纠删码管理系统，OpenEC。}
+	    \resumeItem{}{OpenEC可以很快的将一个纠删码解决方案应用到现有的分布式存储系统中。它将纠删码的控制模块从分布式存储系统的存储流程中解耦出来，并通过提供一种基于有向图的编程模型让纠删码设计人员能在这个系统中方便的控制纠删码的操作。}
+        \resumeItem{}{在修改少量系统源代码的情况下，我们将OpenEC应用到了Hadoop 3.0 HDFS, HDFS-RAID, 以及QFS中。}
+      \resumeItemListEnd
+    \resumeSubheading
+      {ECPipe}{}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
+      \resumeItemListStart
+        \resumeItem{}{我们提出了流水线修复技术，repair pipelining,
+        来提升数据中心中纠删码的修复性能。这个技术将一个数据块的修复分为多个小的数据片的修复，并以流水线的形式修复所有的数据片,
+        使得一个数据块的修复时间接近于正常读一个数据块的时间。}
+        \resumeItem{}{我们将流水线修复技术应用到了Hadoop 3.0 HDFS, HDFS-RAID,
+        和QFS中。并且还能支持同一条带的多个数据块同时修复。}
+      \resumeItemListEnd
+    \resumeSubheading
+      {DoubleR}{}
+      {Source: http://adslab.cse.cuhk.edu.hk/software/doubler/}{}
+      \resumeItemListStart
+        \resumeItem{}{在分层网络数据中心中，跨机架网络传输性能是整个纠删码数据修复过程的瓶颈。理论研究结果已经证明分层数据修复技术能最小化纠删码在数据修复过程中产生的跨机架传输的数据量，即，将数据修复操作分为机架内的部分修复和跨机架数据整合这两层。我们提出了
+        一个跨机架数据修复框架DoubleR来将分层数据修复的技术应用到分布式存储系统中。}
+        \resumeItem{}{我们设计了两组重复再生码（DRC）。它们不仅能最小化数据修复过程中产生的跨机架数据传输总量，还能提升经典再生码的数据修复性能。}
+        \resumeItem{}{我们将DoubleR实现在了HDFS-RAID中，并通过DoubleR将DRC应用在了HDFS-RAID里来提升数据修复的性能。}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------Internship----------------
+\section{工作经历}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {香港中文大学}{2020.8 - 现在}
+      {博士后}{}
+    \resumeSubheading
+      {阿里巴巴云原生平台项目组}{2019.7 - 2019.8}
+      {软件工程实习生}{}
+      %\resumeItemListStart
+      %  \resumeItem{}{One goal of deploying serverless platform for online application services is to better organize 
+      %  system resources to the real-time workloads from time to time. Auto-scaling is a critical technique to achieve 
+      %  this goal. However, the container startup time is a problem that prevent us for better system utilization. Is
+      %  there a solution that helps us achieve this goal?}
+      %  \resumeItem{}{I design an auto-scaling algorithm based on the workloads and system status. I also implement a
+      %  simulator to validate the algorithm.}
+      %\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+%-----------Teaching------------------
+\section{教学}
+  \resumeSubHeadingListStart
+    \resumeSubItem{操作系统}{}
+    \resumeSubItem{云计算与云存储}{}
+    \resumeSubItem{计算机网络}{}
+  \resumeSubHeadingListEnd
+
+\section{获奖}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Student Cluster Competition:}{团队第三名,  ACM/IEEE SC14, New Orleans}
+  \resumeSubHeadingListEnd
+% %-----------Skill----------------------
+% \section{Skills}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{Programming Language:}{C/C++. Java. Python. R.}
+%     \resumeSubItem{Distributed Storage Systems:}{HDFS. QuantcastFS. OpenStack Swift. Crail.}
+%     \resumeSubItem{In-Memory Systems:}{Redis. Alluxio.}
+%     \resumeSubItem{Others:}{OpenWhisk. Kubernetes.}
+%   \resumeSubHeadingListEnd
+% 
+% \section{Selected Award}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{Student Cluster Competition:}{Ranking $3^{rd}$ (team work),  ACM/IEEE SC14, New Orleans}
+%   \resumeSubHeadingListEnd
+
+\section{研究兴趣}
+  \resumeSubHeadingListStart
+  \resumeSubItem{}{分布式存储系统，分布式缓存系统, 云原生系统，容器存储，无服务计算}
+  \resumeSubHeadingListEnd
+    
+%-----------EXPERIENCE-----------------
+% \section{Experience}
+%   \resumeSubHeadingListStart
+% 
+%     \resumeSubheading
+%       {Google}{Mountain View, CA}
+%       {Software Engineer}{Oct 2016 - Present}
+%       \resumeItemListStart
+%         \resumeItem{Tensorflow}
+%           {TensorFlow is an open source software library for numerical computation using data flow graphs; primarily used for training deep learning models. Worked on APIs and performance for training models on Tensor Processing Units (TPU).}
+%         \resumeItem{Apache Beam}
+%           {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines, as well as a set of language-specific SDKs for constructing pipelines and runners.}
+%       \resumeItemListEnd
+% 
+%     \resumeSubheading
+%       {Coursera}{Mountain View, CA}
+%       {Senior Software Engineer}{Jan 2014 - Oct 2016}
+%       \resumeItemListStart
+%         \resumeItem{Notifications}
+%           {Service for sending email, push and in-app notifications. Involved in features such as delivery time optimization, tracking, queuing and A/B testing. Built an internal app to run batch campaigns for marketing etc.}
+%         \resumeItem{Nostos}
+%           {Bulk data processing and injection service from Hadoop to Cassandra and provides a thin REST layer on top for serving offline computed data online.}
+%         \resumeItem{Workflows}
+%           {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+%         \resumeItem{Data Collection}
+%           {Designed the internal survey and crowd sourcing platform which allowed for creating various tasks for crowd sourcing or embedding surveys across the Coursera platform.}
+%         \resumeItem{Dev Environment}
+%           {Analytics environment based on docker and AWS, standardized the python and R dependencies. Wrote the core libraries that are shared by all data scientists.}
+%         \resumeItem{Data Warehousing}
+%           {Setup, schema design and management of Amazon Redshift. Built an internal app for access to the data using a web interface. Dataduct integration for daily ETL injection into Redshift.}
+%         \resumeItem{Recommendations}
+%           {Core service for all recommendation systems at Coursera, currently used on the homepage and throughout the content discovery process. Worked on both offline training and online serving.}
+%         \resumeItem{Content Discovery}
+%           {Improved content discovery by building a new onboarding experience on coursera. Using this to personalize the search and browse experience. Also worked on ranking and indexing improvements.}
+%         \resumeItem{Course Dashboards}
+%           {Instructor dashboards and learner surveying tools, which helped instructors run their class better by providing data on Assignments and Learner Activity.}
+%       \resumeItemListEnd
+% 
+%     \resumeSubheading
+%       {Lucena Research}{Atlanta, GA}
+%       {Data Scientist}{Summer 2012 and 2013}
+%       \resumeItemListStart
+%         \resumeItem{Portfolio Management}
+%           {Created models for portfolio hedging,  portfolio optimization and price forecasting. Also creating a strategy backtesting engine used for simulating and backtesting strategies.}
+%         \resumeItem{QuantDesk}
+%           {Python backend for a web application used by hedge fund managers for portfolio management.}
+%       \resumeItemListEnd
+% 
+%     \resumeSubheading
+%       {Georgia Institute of Technology}{Atlanta, GA}
+%       {Research and Teaching Assistant}{Jan 2012 - Dec 2013}
+%       \resumeItemListStart
+%         \resumeItem{Research Assistant - Machine Learning}
+%           {Research on machine learning for portfolio hedging and replication algorithms. Modeling low-risk \& continuous-return strategies. Developed the python library QSTK.}
+%         \resumeItem{Teaching Assistant - Computational Investing}
+%           {The online course on Coursera, had more than 100,000 students enrolled. It was featured on the 11 Alive News and the Atlanta Journal Constitution. Involved in creating assignment, exams and conducting recitation sessions. Also taught the on-campus version of the course.}
+%       \resumeItemListEnd
+% 
+%   \resumeSubHeadingListEnd
+% 
+% 
+% %-----------PROJECTS-----------------
+% \section{Projects}
+%   \resumeSubHeadingListStart
+%     \resumeSubItem{QuantSoftware Toolkit}
+%       {Open source python library for financial data analysis and machine learning for finance.}
+%     \resumeSubItem{Github Visualization}
+%       {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+%     \resumeSubItem{Recommendation System}
+%       {Music and Movie recommender systems using collaborative filtering on public datasets.}
+%     \resumeSubItem{Mac Setup}
+%       {Book that gives step by step instructions on setting up developer environment on Mac OS.}
+%   \resumeSubHeadingListEnd
+% 
+% %
+% %--------PROGRAMMING SKILLS------------
+% %\section{Programming Skills}
+% %  \resumeSubHeadingListStart
+% %    \item{
+% %      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+% %      \hfill
+% %      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+% %    }
+% %  \resumeSubHeadingListEnd
+% 
+% 
+% %-------------------------------------------
+\end{document}
