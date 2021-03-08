@@ -134,6 +134,16 @@
 \section{项目}
   \resumeSubHeadingListStart
     \resumeSubheading
+      {FastPR}{}
+      {源码: http://adslab.cse.cuhk.edu.hk/software/fastpr/}{}
+      \resumeItemListStart
+        \resumeItem{}{坏盘预测技术可以预测即将损坏的数据节点，使得数据中心能够提前修复即将损坏的数据节点来保证数据的可靠性。我们提出了一个将纠删码数据修复和数据迁移相结合来修复即将损坏的数据节点上的数据的
+        算法，FastPR。它将整个数据修复的过程分为多轮进行，每一轮在用纠删码修复一定数据块的同时，也迁移一部分数据块到新的节点。在不修改Hadoop 3.0 HDFS 源代码的情况下，我们将FastPR应用到了HDFS中，并提升了
+        RS码数据修复的性能。}
+        \resumeItem{}{我们也将FastPR算法应用到了Azure's Local Reconstruction
+        Code，并提高了分布式存储系统的数据修复性能。}
+      \resumeItemListEnd
+    \resumeSubheading
       {OpenEC}{}
       {源码: http://adslab.cse.cuhk.edu.hk/software/openec/}{}
       \resumeItemListStart
