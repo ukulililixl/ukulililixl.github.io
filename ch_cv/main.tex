@@ -137,39 +137,31 @@
       {FastPR}{}
       {源码: http://adslab.cse.cuhk.edu.hk/software/fastpr/}{}
       \resumeItemListStart
-        \resumeItem{}{坏盘预测技术可以预测即将损坏的数据节点，使得数据中心能够提前修复即将损坏的数据节点来保证数据的可靠性。我们提出了一个将纠删码数据修复和数据迁移相结合来修复即将损坏的数据节点上的数据的
-        算法，FastPR。它将整个数据修复的过程分为多轮进行，每一轮在用纠删码修复一定数据块的同时，也迁移一部分数据块到新的节点。在不修改Hadoop 3.0 HDFS 源代码的情况下，我们将FastPR应用到了HDFS中，并提升了
-        RS码数据修复的性能。}
-        \resumeItem{}{我们也将FastPR算法应用到了Azure's Local Reconstruction
-        Code，并提高了分布式存储系统的数据修复性能。}
+        \resumeItem{}{我们提出了一个将纠删码数据修复和数据迁移相结合来修复即将损坏的数据节点上的数据的算法，FastPR。它将整个数据修复的过程分为多轮进行，每一轮在用纠删码修复一定数据块的同时，也迁移一部分数据块到新的节点。
+        在不修改Hadoop 3.0 HDFS 源代码的情况下，我们将FastPR应用到了HDFS中，并提升了RS码数据修复的性能。我们也将FastPR算法应用到了Azure's Local Reconstruction Code，并提高了分布式存储系统的数据修复性能。}
       \resumeItemListEnd
     \resumeSubheading
       {OpenEC}{}
       {源码: http://adslab.cse.cuhk.edu.hk/software/openec/}{}
       \resumeItemListStart
-        \resumeItem{}{为了提升纠删码在分布式存储系统中的可用性，研究人员从理论上设计了新的，更实用的纠删码，也提出了更有效的数据修复算法。然而，将这些新的纠删码解决方案应用到现有的分布式存储系统中是一个非常有挑战性的工作。这需要大量的修改分布式存储系统的工作流程。
-    为了解决这个问题，我们为分布式存储系统设计了一个统一的，可编程控制的纠删码管理系统，OpenEC。}
-	    \resumeItem{}{OpenEC可以很快的将一个纠删码解决方案应用到现有的分布式存储系统中。它将纠删码的控制模块从分布式存储系统的存储流程中解耦出来，并通过提供一种基于有向图的编程模型让纠删码设计人员能在这个系统中方便的控制纠删码的操作。}
-        \resumeItem{}{在修改少量系统源代码的情况下，我们将OpenEC应用到了Hadoop 3.0 HDFS, HDFS-RAID, 以及QFS中。}
+        \resumeItem{}{我们为分布式存储系统设计了一个可编程控制的纠删码管理系统，OpenEC。OpencEC将纠删码的控制模块从分布式存储系统的存储数据流中解耦出来，并通过提供基于有向图的编程模型
+        (ECDAG) 让纠删码设计人员能在这个系统中方便的控制纠删码的操作，而不用去修改分布式存储系统的核心代码。在仅修改少量系统源代码的情况下，我们将OpenEC应用到了Hadoop 3.0 HDFS, HDFS-RAID, 
+        以及QFS中。OpenEC可以支持多种纠删码和数据修复算法的设计。目前我们在OpenEC中验证了包括RS, MISER，DRC，LRC, 以及PPR，还有repair pipelining在内的多种前沿纠删码和数据修复算法的设计。}
       \resumeItemListEnd
     \resumeSubheading
       {ECPipe}{}
       {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
       \resumeItemListStart
-        \resumeItem{}{我们提出了流水线修复技术，repair pipelining,
-        来提升数据中心中纠删码的修复性能。这个技术将一个数据块的修复分为多个小的数据片的修复，并以流水线的形式修复所有的数据片,
-        使得一个数据块的修复时间接近于正常读一个数据块的时间。}
-        \resumeItem{}{我们将流水线修复技术应用到了Hadoop 3.0 HDFS, HDFS-RAID,
-        和QFS中。并且还能支持同一条带的多个数据块同时修复。}
+        \resumeItem{}{我们提出了流水线修复技术，repair pipelining, 来提升数据中心中纠删码的修复性能。这个技术将一个数据块的修复分为多个小的数据片的修复，并以流水线的形式修复所有的数据片,
+        使得一个数据块的修复时间接近于正常读一个数据块的时间。我们将流水线修复技术应用到了Hadoop 3.0 HDFS, HDFS-RAID, 和QFS中。并且还能支持同一条带的多个数据块同时修复。}
       \resumeItemListEnd
     \resumeSubheading
       {DoubleR}{}
       {Source: http://adslab.cse.cuhk.edu.hk/software/doubler/}{}
       \resumeItemListStart
-        \resumeItem{}{在分层网络数据中心中，跨机架网络传输性能是整个纠删码数据修复过程的瓶颈。理论研究结果已经证明分层数据修复技术能最小化纠删码在数据修复过程中产生的跨机架传输的数据量，即，将数据修复操作分为机架内的部分修复和跨机架数据整合这两层。我们提出了
-        一个跨机架数据修复框架DoubleR来将分层数据修复的技术应用到分布式存储系统中。}
-        \resumeItem{}{我们设计了两组重复再生码（DRC）。它们不仅能最小化数据修复过程中产生的跨机架数据传输总量，还能提升经典再生码的数据修复性能。}
-        \resumeItem{}{我们将DoubleR实现在了HDFS-RAID中，并通过DoubleR将DRC应用在了HDFS-RAID里来提升数据修复的性能。}
+        \resumeItem{}{我们设计了一个分层数据修复系统的框架，DoubleR。它将数据修复的操作分为机架内的部分操作和跨机架的数据整合。我们也设计了技术数据分层修复的重复再生码 (DRC)，它不仅能最小化数据
+        修复过程中产生的跨机架数据传输的数据量，还能提升经典再生码的数据修复性能。我们在HDFS-RAID中实现了这个数据修复框架，并验证了重复再生码的数据修复性能。同时，我们也验证了这个分层数据修复框架
+        还能提升包括RS，MISER等纠删码在分层数据中心中的数据修复性能。}
       \resumeItemListEnd
 
   \resumeSubHeadingListEnd
