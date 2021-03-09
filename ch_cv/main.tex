@@ -63,12 +63,20 @@
     \end{tabular*}\vspace{-5pt}
 }
 
+\newcommand{\resumeSubListing}[2]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      %\textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}
+}
+
 \newcommand{\resumeSubSubheading}[2]{
   \vspace{-1pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       %\textit{\small#3} & \textit{\small #4} \\
-    \end{tabular*}\vspace{-5pt}
+    \end{tabular*}\vspace{-15pt}
 }
 
 \newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
@@ -88,45 +96,59 @@
 
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-  \textbf{\href{https://ukulililixl.github.io/}{\Large 李晓露}} & \href{mailto:ukulililixl@gmail.com}{ukulililixl@gmail.com}\\
-  \href{https://ukulililixl.github.io/}{https://ukulililixl.github.io} & 852-54273479 \\
+  \textbf{\href{https://ukulililixl.github.io/}{\Large 李晓露}} & lixl@cse.cuhk.edu.hk\\
+  {计算机科学与工程博士} & 852-54273479 \\
 \end{tabular*}
 
+
+\section{工作经历}
+  \resumeSubHeadingListStart
+    \resumeSubSubheading
+      {博士后研究员，香港中文大学}{2020.8至今}
+    \resumeSubheading
+      {阿里巴巴云原生平台项目组, 软件工程实习生}{2019.7 - 2019.8}
+      {设计并实现了云原生平台容器资源管理的模拟器。}{}
+    \resumeSubheading
+      {助教，香港中文大学}{}
+      {担任“云计算与存储导论”，“计算机网络”，
+      “操作系统”科目的助教，对实验进行授课和指导，设计并检查作业。}{}
+  \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
 \section{教育经历}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {博士}{香港中文大学}
-      {计算机科学与工程}{2016.8 -- 2020.7}
+      {博士，计算机科学与工程}{香港中文大学}
+      {导师：李柏晴教授}{2016.8 -- 2020.7}
     \resumeSubheading
-      {学士}{中国科学技术大学}
-      {计算机科学与技术; GPA: 3.71 (88.03/100.00)}{2012.8 -- 2016.6}
+      {工学学士，计算机科学与技术}{中国科学技术大学}
+      {GPA: 3.71, 排名：13/106}{2012.8 -- 2016.6}
   \resumeSubHeadingListEnd
 
 %-----------Publication---------------
 \section{论文}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation}}{}
-      {\makecell[l]{{\bf Xiaolu Li}, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. }}{(在投)}
-    \resumeSubheading
-      {\makecell[l]{Repair Pipelining for Erasure-Coded Storage: Algorithms and Evaluation.}}{}
-      {\makecell[l]{{\bf Xiaolu Li}, Zuoru Yang, Jinhong Li, Runhui Li, Patrick P. C. Lee, Qun Huang and Yuchong Hu. \\To appear in ACM Transaction on Storage (TOS).}}{}
-    \resumeSubheading
-      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage}}{}
-      {\makecell[l]{Zhirong Shen, {\bf Xiaolu Li} and Patrick P. C. Lee. \\IEEE/IFIP DSN 2019. (AR: 54/252 = 21.4\%)}}{}
-    \resumeSubheading
-      {\makecell[l]{OpenEC: Toward Unified and Configurable Erasure Coding Management in \\Distributed Storage Systems}}{}
+      {\makecell[l]{OpenEC: Toward Unified and Configurable Erasure Coding Management in
+      \\Distributed Storage Systems}}{CCF A}
       {\makecell[l]{{\bf Xiaolu Li}, Runhui Li, Patrick P. C. Lee, and Yuchong Hu. \\USENIX FAST 2019. (AR: 26/145 = 17.9\%)}}{}
     \resumeSubheading
-      {Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{}
+      {\makecell[l]{Repair Pipelining for Erasure-Coded Storage: Algorithms and Evaluation.}}{CCF A}
+      {\makecell[l]{{\bf Xiaolu Li}, Zuoru Yang, Jinhong Li, Runhui Li, Patrick P. C. Lee, Qun Huang and Yuchong Hu. \\To appear in ACM Transaction on Storage (TOS).}}{}
+    \resumeSubheading
+      {Repair Pipelining for Erasure-Coded Storage}{CCF A}
+      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
+    \resumeSubheading
+      {Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice}{CCF A}
       {\makecell[l]{Yuchong Hu, {\bf Xiaolu Li}, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng. \\ACM Transaction on Storage  (TOS), 13(4), pp. 33:1-33:24,
       November 2017}}{}
     \resumeSubheading
-      {Repair Pipelining for Erasure-Coded Storage}{}
-      {\makecell[l]{Runhui Li, {\bf Xiaolu Li}, Patrick P.C. Lee and Qun Huang. \\USENIX ATC 2017. (AR: 60/283 = 21.2\%)}}{}
-
+      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage}}{CCF B}
+      {\makecell[l]{Zhirong Shen, {\bf Xiaolu Li} and Patrick P. C. Lee. \\IEEE/IFIP DSN 2019. (AR: 54/252 = 21.4\%)}}{}
+    \resumeSubheading
+      {\makecell[l]{Fast Predictive Repair in Erasure-Coded Storage: Analysis, Design, \\and
+      Implementation}}{CCF A在投}
+      {\makecell[l]{{\bf Xiaolu Li}, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. }}{}
 
   \resumeSubHeadingListEnd
 
@@ -167,14 +189,14 @@
   \resumeSubHeadingListEnd
 
 %-----------Internship----------------
-\section{工作经历}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {香港中文大学}{2020.8 - 现在}
-      {博士后}{}
-    \resumeSubheading
-      {阿里巴巴云原生平台项目组}{2019.7 - 2019.8}
-      {软件工程实习生}{}
+% \section{工作经历}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {香港中文大学}{2020.8 - 现在}
+%       {博士后}{}
+%     \resumeSubheading
+%       {阿里巴巴云原生平台项目组}{2019.7 - 2019.8}
+%       {软件工程实习生}{}
       %\resumeItemListStart
       %  \resumeItem{}{One goal of deploying serverless platform for online application services is to better organize 
       %  system resources to the real-time workloads from time to time. Auto-scaling is a critical technique to achieve 
@@ -184,7 +206,7 @@
       %  simulator to validate the algorithm.}
       %\resumeItemListEnd
 
-  \resumeSubHeadingListEnd
+%  \resumeSubHeadingListEnd
 %-----------Teaching------------------
 \section{教学}
   \resumeSubHeadingListStart
