@@ -109,9 +109,9 @@
       {阿里巴巴云原生平台项目组, 软件工程实习生}{2019.7 - 2019.8}
       {设计并实现了云原生平台容器资源管理的模拟器。}{}
     \resumeSubheading
-      {助教，香港中文大学}{}
-      {担任“云计算与存储导论”，“计算机网络”，
-      “操作系统”科目的助教，对实验进行授课和指导，设计并检查作业。}{}
+      {助教，香港中文大学}{2016.8 - 2018.12}
+      {\makecell[l]{担任“云计算与存储导论”，“计算机网络”，\\
+      “操作系统”科目的助教，对实验进行授课和指导，设计并检查作业。}}{}
   \resumeSubHeadingListEnd
 
 %-----------EDUCATION-----------------
@@ -156,36 +156,57 @@
 \section{项目}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {FastPR}{}
-      {源码: http://adslab.cse.cuhk.edu.hk/software/fastpr/}{}
+      {\textbf{\href{http://adslab.cse.cuhk.edu.hk/software/doubler}{DoubleR}}}{}
+      {将一种新型纠删码应用于HDFS中以加速数据恢复。}{}
       \resumeItemListStart
-        \resumeItem{}{我们提出了一个将纠删码数据修复和数据迁移相结合来修复即将损坏的数据节点上的数据的算法，FastPR。它将整个数据修复的过程分为多轮进行，每一轮在用纠删码修复一定数据块的同时，也迁移一部分数据块到新的节点。
-        在不修改Hadoop 3.0 HDFS 源代码的情况下，我们将FastPR应用到了HDFS中，并提升了RS码数据修复的性能。我们也将FastPR算法应用到了Azure's Local Reconstruction Code，并提高了分布式存储系统的数据修复性能。}
+        \resumeItem{}{纠删码是一种保证分布式存储系统中数据可靠性的技术。它可以在保证数据可靠性的同时降低存储的开销。但是它的数据修复过程开销很大，通常需要数倍于原数据量的数据来做修复。
+            这个数据修复开销的问题在分层网络结构中变得更加严重，因为分层网络结构中跨机架的网络带宽非常有限。所以，我们设计了一个分层数据修复的框架，DoubleR，将一种为分层网络结构的数据
+            中心设计的纠删码（Double Regenerating
+            Code）应用到HDFS-RAID中。在做数据修复时，我们先在机架内做部分修复，再将数据整合修复原数据。在这个工作中，我主导了数据修复框架的架构设计，深入学习了HDFS-RAID的源代码
+        并在其中实现了我们的分层数据修复框架
+    （核心代码约6k行）。实验结果表明我们的设计可以有效减少修复所传输的数据量，使得数据修复速度提升为传统方式的3倍。}
       \resumeItemListEnd
     \resumeSubheading
-      {OpenEC}{}
-      {源码: http://adslab.cse.cuhk.edu.hk/software/openec/}{}
+      {\textbf{\href{http://adslab.cse.cuhk.edu.hk/software/ecpipe/}{ECPipe}}}{}
+      {将纠删码降级读数据的性能优化至接近正常读数据的性能。} {}
       \resumeItemListStart
-        \resumeItem{}{我们为分布式存储系统设计了一个可编程控制的纠删码管理系统，OpenEC。OpencEC将纠删码的控制模块从分布式存储系统的存储数据流中解耦出来，并通过提供基于有向图的编程模型
-        (ECDAG) 让纠删码设计人员能在这个系统中方便的控制纠删码的操作，而不用去修改分布式存储系统的核心代码。在仅修改少量系统源代码的情况下，我们将OpenEC应用到了Hadoop 3.0 HDFS, HDFS-RAID, 
-        以及QFS中。OpenEC可以支持多种纠删码和数据修复算法的设计。目前我们在OpenEC中验证了包括RS, MISER，DRC，LRC, 以及PPR，还有repair pipelining在内的多种前沿纠删码和数据修复算法的设计。}
+        \resumeItem{}{纠删码的高修复开销阻止了它在热数据中的应用。我们提出了流水线修复技术将纠删码的数据修复性能优化至接近正常读数据的性能。这个技术将一个数据块的修复分为多个小的数据
+        片的修复，并以流水线的形式修复所有的数据片。在这个工作中，我参与了流水线修复技术在不同网络环境下的算法设计，并将这个技术应用到了HDFS-RAID,
+        QFS, 和Hadoop 3.0 HDFS中，使得单个数据块的修复性能与传统数据修复的方法相比提高了90\%。这个项目的核心代码约6k行。}
       \resumeItemListEnd
     \resumeSubheading
-      {ECPipe}{}
-      {Source: http://adslab.cse.cuhk.edu.hk/software/ecpipe/} {}
+      {\textbf{\href{http://adslab.cse.cuhk.edu.hk/software/openec}{OpenEC}}}{}
+      {将数据冗余模块从分布式存储系统中解耦出来，为系统赋能更多元的纠删码解决方案。}{}
       \resumeItemListStart
-        \resumeItem{}{我们提出了流水线修复技术，repair pipelining, 来提升数据中心中纠删码的修复性能。这个技术将一个数据块的修复分为多个小的数据片的修复，并以流水线的形式修复所有的数据片,
-        使得一个数据块的修复时间接近于正常读一个数据块的时间。我们将流水线修复技术应用到了Hadoop 3.0 HDFS, HDFS-RAID, 和QFS中。并且还能支持同一条带的多个数据块同时修复。}
+        \resumeItem{}{尽管研究人员设计了许多新型的纠删码和数据修复算法来提升纠删码的数据修复性能，它们并没有被广泛的应用到分布式存储系统中。其中很重要的一个原因就是，分布式存储系统中
+        的数据冗余模块和存储系统的核心代码是紧耦合的。这导致要应用一个新的纠删码解决方案需要大量的工程去修改存储系统的核心代码。我们为分布式存储系统设计了一个可编程控制的纠删码管理系统，
+        OpenEC。OpencEC将纠删码的控制模块从分布式存储系统的存储数据流中解耦出来，并通过提供基于有向图的编程模型 (ECDAG) 让纠删码设计人员能在这个系统中方便的控制纠删码的操作，
+        而不用去修改分布式存储系统的核心代码。在这个工作中，我研究了包含HDFS-RAID, Hadoop 3.0 HDFS,
+        QFS, OpenStack Swift, 和 Ceph
+        在内的多个分布式存储系统中的数据冗余模块，总结了它们在冗余模块设计上的问题，并主导了OpenEC的架构设计 和实现
+        （核心代码7k行）。在仅修改少量系统源代码（少于450行）的情况下，我们将OpenEC应用到了
+    Hadoop 3.0 HDFS, HDFS-RAID, 以及QFS中。OpenEC目前支持多种前沿的纠删码和算法设计。}
       \resumeItemListEnd
     \resumeSubheading
-      {DoubleR}{}
-      {Source: http://adslab.cse.cuhk.edu.hk/software/doubler/}{}
+      {\textbf{\href{http://adslab.cse.cuhk.edu.hk/software/fastpr}{FastPR}}}{}
+      {结合数据迁移与纠删码来提升数据预修复的性能。}{}
       \resumeItemListStart
-        \resumeItem{}{我们设计了一个分层数据修复系统的框架，DoubleR。它将数据修复的操作分为机架内的部分操作和跨机架的数据整合。我们也设计了技术数据分层修复的重复再生码 (DRC)，它不仅能最小化数据
-        修复过程中产生的跨机架数据传输的数据量，还能提升经典再生码的数据修复性能。我们在HDFS-RAID中实现了这个数据修复框架，并验证了重复再生码的数据修复性能。同时，我们也验证了这个分层数据修复框架
-        还能提升包括RS，MISER等纠删码在分层数据中心中的数据修复性能。}
+        \resumeItem{}{坏盘分析和预测的研究给分布式存储系统提供了数据预修复的机会。为了保证数据的可靠性，尽可能快的修复即将损坏的数据节点上的数据至关重要。我们提出了一个快速预修复的算法，
+          FastPR，来结合数据迁移和纠删码进行数据的预修复。我们将预修复过程分为多轮进行，每一轮都分别由纠删码和迁移来预修复一定数量的数据块。在这个工作中，我参与了FastPR的理论建模，以及代码
+          实现，并将这个快速预修复算法在不修改系统源代码的情况下应用到了Hadoop 3.0
+          HDFS中，使得数据预修复的性能比纯数据迁移提高了42.6\%，比纯纠删码提高了71.7\%。这个项目的核心代码约4k行。}
       \resumeItemListEnd
-
+    \resumeSubheading
+      {SimServerless}{}
+      {阿里巴巴云原生平台容器自动扩缩容管理的预研。}{}
+      \resumeItemListStart
+        \resumeItem{}{设计云原生资源管理平台的其中一个很重要的目的是要将应用微服务化，通过容器的自动扩缩容来更好的进行实时的资源的分配和回收。
+        但是，由于容器的冷启动时间很长（不同的应用，容器的启动时间不同，少至几分钟，多则几十分钟），使得系统在检测到资源不足时才去扩容不是一个可行的方案。怎样去做实时
+    且适合的资源分配和回收是一个非常重要的问题。其一，资源的不及时分配会影响应用的前端性能。其二，资源的不及时回收会导致大量的资源浪费，进而导致很高的资源维护费用。在这个工作中，我首先去
+    分析了阿里巴巴的一个促销app在某一段时间的流量。然后根据分析的结果设计了一个基于时序分析的两层容器扩缩容的算法，即冷-热启动双层扩缩容的算法。它将系统资源分为冷启动池和热启动池，根据时序
+    分析的结果来分配和回收热启动池与冷启动池的资源，使得上层应用能够及时从热启动池得到足够的资源，且系统维护的热启动池的资源维持在可以接受的范围内。最后，我设计并实现了一个模拟器来验证这个
+    算法在这一段时间的流量上的效果。模拟结果显示冷-热启动双层扩缩容算法可以达到扩缩容的目标。}
+      \resumeItemListEnd
   \resumeSubHeadingListEnd
 
 %-----------Internship----------------
@@ -208,16 +229,18 @@
 
 %  \resumeSubHeadingListEnd
 %-----------Teaching------------------
-\section{教学}
-  \resumeSubHeadingListStart
-    \resumeSubItem{操作系统}{}
-    \resumeSubItem{云计算与云存储}{}
-    \resumeSubItem{计算机网络}{}
-  \resumeSubHeadingListEnd
+%\section{教学}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{操作系统}{}
+%    \resumeSubItem{云计算与云存储}{}
+%    \resumeSubItem{计算机网络}{}
+%  \resumeSubHeadingListEnd
 
 \section{获奖}
   \resumeSubHeadingListStart
-    \resumeSubItem{Student Cluster Competition:}{团队第三名,  ACM/IEEE SC14, New Orleans}
+    \resumeSubItem{香港中文大学研究生奖学金:}{2016-2020}
+    \resumeSubItem{香港中文大学优秀助教:}{2018-2019}
+    \resumeSubItem{大学生超算竞赛(Student Cluster Competition)团队第三名:}{ACM/IEEE SC14, New Orleans}
   \resumeSubHeadingListEnd
 % %-----------Skill----------------------
 % \section{Skills}
