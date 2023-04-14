@@ -9,14 +9,17 @@ main:
   - title: "Publications"
     url: "/#-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Teaching"
+    url: "/#-teaching"
 
-  - title: "Educations"
-    url: "/#-educations"
+  - title: "Student"
+    url: "/#-student"
+
+  - title: "Activities"
+    url: "/#-honors"
+
+  - title: "Honors"
+    url: "/#-honors"
 
   - title: "Invited Talks"
     url: "/#-invited-talks"
-
-  - title: "Internships"
-    url: "/#-internships"
