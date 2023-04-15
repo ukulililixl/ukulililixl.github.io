@@ -53,7 +53,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 **Journal**
 
 - [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers: Design and Analysis](https://ieeexplore.ieee.org/document/10007053). Guowen Gong, Zhirong Shen, Liang Chen, Suzhen Wu, **Xiaolu Li**, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu. **IEEE TC 2023** (CCF-A).
-- [Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation](https://ieeexplore.ieee.org/document/9721141). **Xiaolu Li**, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. **Xiaolu Li**, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu. **IEEE TPDS 2022** (CCF-A).
+- [Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation](https://ieeexplore.ieee.org/document/9721141). **Xiaolu Li**, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. **IEEE TPDS 2022** (CCF-A).
 - [Repair Pipelining for Erasure-Coded Storage: Algorithms and Evaluation](https://dl.acm.org/doi/abs/10.1145/3436890). **Xiaolu Li**, Zuoru Yang, Jinhong Li, Runhui Li, Patrick P. C. Lee, Qun Huang, and Yuchong Hu. **ACM TOS 2021** (CCF-A).
 - [Optimal Repair Layering for Erasure-Coded Data Centers: From Theory to Practice.](https://dl.acm.org/doi/10.1145/3149349). Yuchong Hu, **Xiaolu Li**, Mi Zhang, Patrick P. C. Lee, Xiaoyang Zhang, Pan Zhou, and Dan Feng. **ACM TOS 2019** (CCF-A).
 
