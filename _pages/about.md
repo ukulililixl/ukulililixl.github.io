@@ -22,6 +22,7 @@ Xiaolu Li received the B.Eng. degree in Computer Science and Technology from Uni
 I'm looking for self-motivated students who are interested in distributed storage systems, erasure coding, LSM Tree-based KV store, and hardware accelerator such as FPGA. If you are interested in these topics, please feel free to contact me.
 
 # 🔥 News
+- *2023.12*: &nbsp;🎉🎉 One paper get accepted in FAST'24.
 - *2022.12*: &nbsp;🎉🎉 One paper get accepted in TC'23. 
 - *2022.12*: &nbsp;🎉🎉 One paper get accepted in InfoCom'23. 
 - *2022.12*: &nbsp;🎉🎉 One paper get accepted in FAST'23. 
@@ -43,6 +44,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 
 **Conference**
 
+- [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage.](???). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
 - [ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage](https://www.usenix.org/system/files/fast23-li.pdf). **Xiaolu Li**, Keyun Cheng, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, Ting-Yi Wu. USENIX FAST 2023 (CCF-A).
 - [Balancing Repair Bandwidth and Sub-Packetization in Erasure-Coded Storage via Elastic Transformation](). Kaicheng Tang, Keyun Cheng, Helen H. W. Chan, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE InfoCom 2023 (CCF-A).
 - [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers](https://ieeexplore.ieee.org/document/9488813). Guowen Gong, Zhirong Shen, Suzhen Wu, **Xiaolu Li**, and Patrick P. C. Lee. IEEE InfoCom 2021 (CCF-A).
