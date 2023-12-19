@@ -63,6 +63,8 @@ I'm looking for self-motivated students who are interested in distributed storag
 - *Spring*, 操作系统课程设计
 
 # 📖 Student
+- Zhengyao Ding, master 2023-now, Co-supervise with Prof. Dan Feng
+- Junlong Zhang, master 2023-now, Co-supervise with Prof. Dan Feng
 - Dingxin Wang, master 2023-now
 - Xuan Liu, master 2023-now
 - Lei Wu, master 2023-now, Co-supervise with Prof. Yuchong Hu
