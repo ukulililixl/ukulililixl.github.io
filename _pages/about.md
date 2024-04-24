@@ -44,10 +44,10 @@ I'm looking for self-motivated students who are interested in distributed storag
 
 **Conference**
 
-- [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage.](???). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
+- [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage.](https://www.usenix.org/conference/fast24/presentation/ren). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
 - [ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage](https://www.usenix.org/system/files/fast23-li.pdf). **Xiaolu Li**, Keyun Cheng, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, Ting-Yi Wu. USENIX FAST 2023 (CCF-A).
-- [Balancing Repair Bandwidth and Sub-Packetization in Erasure-Coded Storage via Elastic Transformation](). Kaicheng Tang, Keyun Cheng, Helen H. W. Chan, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE InfoCom 2023 (CCF-A).
-- [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers](https://ieeexplore.ieee.org/document/9488813). Guowen Gong, Zhirong Shen, Suzhen Wu, **Xiaolu Li**, and Patrick P. C. Lee. IEEE InfoCom 2021 (CCF-A).
+- [Balancing Repair Bandwidth and Sub-Packetization in Erasure-Coded Storage via Elastic Transformation](https://www.cse.cuhk.edu.hk/~pclee/www/pubs/infocom23et.pdf). Kaicheng Tang, Keyun Cheng, Helen H. W. Chan, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE InfoCom 2023 (CCF-A).
+- [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers](files/infocom21.pdf). Guowen Gong, Zhirong Shen, Suzhen Wu, **Xiaolu Li**, and Patrick P. C. Lee. IEEE InfoCom 2021 (CCF-A).
 - [Fast Predictive Repair in Erasure-Coded Storage](https://ieeexplore.ieee.org/document/8809511). Zhirong Shen, **Xiaolu Li**, and Patrick P. C. Lee. IEEE/IFIP DSN 2019 (CCF-B).
 - [OpenEC: Toward Unified and Configurable Erasure Coding Management in Distributed Storage Systems](https://www.usenix.org/conference/fast19/presentation/li). **Xiaolu Li**, Runhui Li, Patrick P. C. Lee, and Yuchong Hu. USENIX FAST 2019 (CCF-A).
 - [Repair Pipelining for Erasure-Coded Storage](https://www.usenix.org/conference/atc17/technical-sessions/presentation/li-runhui). Runhui Li, **Xiaolu Li**, Patrick P. C. Lee, and Qun Huang. USENIX ATC 2017. (CCF-A).
