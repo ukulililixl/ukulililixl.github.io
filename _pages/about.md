@@ -61,8 +61,9 @@ I'm looking for self-motivated students who are interested in distributed storag
 
 # 📖 Teaching
 - *Spring*, 操作系统课程设计
+- *Fall*, 操作系统原理
 
-# 📖 Student
+# 🧑 Student
 - Zhengyao Ding, master 2023-now, Co-supervise with Prof. Dan Feng
 - Junlong Zhang, master 2023-now, Co-supervise with Prof. Dan Feng
 - Dingxin Wang, master 2023-now
@@ -71,6 +72,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 - Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
 # 🧑 Activities
+- *2024.01* Reviewer for TOS
 - *2023.03* PC for ICA3PP'23
 - *2022.05* AEC for OSDI'22 and ATC'22
 
