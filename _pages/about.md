@@ -74,6 +74,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 - Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
 # 🧑 Activities
+- *2024.06* Reviewer for FAST'25
 - *2024.01* Reviewer for TOS
 - *2023.03* PC for ICA3PP'23
 - *2022.05* AEC for OSDI'22 and ATC'22
