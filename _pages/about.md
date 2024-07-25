@@ -46,7 +46,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 
 **Conference**
 
-- [Harmonizing Repair and Maintenance in LRC-Coded Storage](). Keyun Cheng, Si Wu, Xiaolu Li, and Patrick P. C. Lee. SRDS 2024 (CCF-B).
+- [Harmonizing Repair and Maintenance in LRC-Coded Storage](). Keyun Cheng, Si Wu, **Xiaolu Li**, and Patrick P. C. Lee. SRDS 2024 (CCF-B).
 - [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage](https://www.usenix.org/conference/fast24/presentation/ren). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
 - [ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage](https://www.usenix.org/conference/fast23/presentation/li-xiaolu). **Xiaolu Li**, Keyun Cheng, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, Ting-Yi Wu. USENIX FAST 2023 (CCF-A).
 - [Balancing Repair Bandwidth and Sub-Packetization in Erasure-Coded Storage via Elastic Transformation](files/infocom23et.pdf). Kaicheng Tang, Keyun Cheng, Helen H. W. Chan, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE InfoCom 2023 (CCF-A).
