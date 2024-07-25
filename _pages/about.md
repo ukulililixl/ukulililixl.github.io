@@ -68,23 +68,22 @@ I'm looking for self-motivated students who are interested in distributed storag
 - *Fall*, 操作系统原理
 
 # 🧑 Student
+- Lei Wu, master 2023-2024, PhD 2024-now, Co-supervise with Prof. Yuchong Hu
 - Zhengyao Ding, master 2023-now, Co-supervise with Prof. Dan Feng
 - Junlong Zhang, master 2023-now, Co-supervise with Prof. Dan Feng
 - Dingxin Wang, master 2023-now
 - Xuan Liu, master 2023-now
-- Lei Wu, master 2023-now, Co-supervise with Prof. Yuchong Hu
 - Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
 # 🧑 Activities
-- *2024.06* PC for FAST'25
-- *2024.01* Reviewer for TOS
-- *2023.03* PC for ICA3PP'23
-- *2022.05* AEC for OSDI'22 and ATC'22
+- *PC Member* for FAST'25, ICA3PP'24, ICA3PP'23
+- * AEC Member* for OSDI'22, ATC'22, FAST'24
+- *Journal Reviewer* for TOS
 
 # 🎖 Honors
 <!-- - *2023.03* PC for ICA3PP'23
 - *2022.05* AEC for OSDI'22 and ATC'22 -->
 
 # 💬 Invited Talks
-<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/) -->
+<!-- - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.--> 
+- *2024.06*, Invited to give a talk on "parallel repair of MSR-coded storage" in Shandong University
