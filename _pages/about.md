@@ -77,7 +77,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 
 # 🧑 Activities
 - *PC Member* for FAST'25, ICA3PP'24, ICA3PP'23
-- * AEC Member* for OSDI'22, ATC'22, FAST'24
+- *AEC Member* for OSDI'22, ATC'22, FAST'24
 - *Journal Reviewer* for TOS
 
 # 🎖 Honors
