@@ -22,6 +22,7 @@ Xiaolu Li received the B.Eng. degree in Computer Science and Technology from Uni
 I'm looking for self-motivated students who are interested in distributed storage systems, erasure coding, LSM Tree-based KV store, and hardware accelerator such as FPGA. If you are interested in these topics, please feel free to contact me.
 
 # 🔥 News
+- *2024.06*: &nbsp;🎉🎉 Invited to give a talk on "parallel repair of MSR-coded storage" at Shandong University.
 - *2024.06*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'25.
 - *2024.06*: &nbsp;🎉🎉 One paper get accepted in SRDS'24.
 - *2023.12*: &nbsp;🎉🎉 One paper get accepted in FAST'24.
