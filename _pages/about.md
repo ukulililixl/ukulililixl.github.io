@@ -22,6 +22,7 @@ Xiaolu Li received the B.Eng. degree in Computer Science and Technology from Uni
 I'm looking for self-motivated students who are interested in distributed storage systems, erasure coding, LSM Tree-based KV store, and hardware accelerator such as FPGA. If you are interested in these topics, please feel free to contact me.
 
 # 🔥 News
+- *2024.06*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'25.
 - *2024.06*: &nbsp;🎉🎉 One paper get accepted in SRDS'24.
 - *2023.12*: &nbsp;🎉🎉 One paper get accepted in FAST'24.
 - *2022.12*: &nbsp;🎉🎉 One paper get accepted in TC'23. 
@@ -74,7 +75,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 - Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
 # 🧑 Activities
-- *2024.06* Reviewer for FAST'25
+- *2024.06* PC for FAST'25
 - *2024.01* Reviewer for TOS
 - *2023.03* PC for ICA3PP'23
 - *2022.05* AEC for OSDI'22 and ATC'22
