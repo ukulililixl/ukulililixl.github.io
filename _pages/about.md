@@ -71,6 +71,8 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 
 # 🧑 Student
 - Lei Wu, master 2023-2024, PhD 2024-now, Co-supervise with Prof. Yuchong Hu
+- Mengjie He, master 2024-now
+- Zongzhen, Yang, master 2024-now
 - Zhengyao Ding, master 2023-now, Co-supervise with Prof. Dan Feng
 - Junlong Zhang, master 2023-now, Co-supervise with Prof. Dan Feng
 - Dingxin Wang, master 2023-now
