@@ -24,6 +24,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
 
 # 🔥 News
+- *2024.11*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'26.
 - *2024.06*: &nbsp;🎉🎉 Invited to give a talk on "parallel repair of MSR-coded storage" at Shandong University.
 - *2024.06*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'25.
 - *2024.06*: &nbsp;🎉🎉 One paper get accepted in SRDS'24.
@@ -81,7 +82,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 - Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
 # 🧑 Activities
-- *PC Member* for FAST'25, ICA3PP'24, ICA3PP'23
+- *PC Member* for FAST'26, FAST'25, ICA3PP'24, ICA3PP'23
 - *AEC Member* for OSDI'22, ATC'22, FAST'24
 - *Journal Reviewer* for TOS, and TON.
 
