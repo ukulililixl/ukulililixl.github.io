@@ -24,6 +24,8 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
 
 # 🔥 News
+- *2025.06*: &nbsp;🎉🎉 One paper get accepted in FAST'26.
+- *2025.03*: &nbsp;🎉🎉 One paper get accepted in TPDS'25.
 - *2024.11*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'26.
 - *2024.06*: &nbsp;🎉🎉 Invited to give a talk on "parallel repair of MSR-coded storage" at Shandong University.
 - *2024.06*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'25.
@@ -50,6 +52,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 
 **Conference**
 
+- [LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage](). Guodong Li, Keyun Cheng, **Xiaolu Li**, Sihuang Hu, and Patrick P. C. Lee. FAST 2025 (CCF-A).
 - [Harmonizing Repair and Maintenance in LRC-Coded Storage](). Keyun Cheng, Si Wu, **Xiaolu Li**, and Patrick P. C. Lee. SRDS 2024 (CCF-B).
 - [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage](https://www.usenix.org/conference/fast24/presentation/ren). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
 - [ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage](https://www.usenix.org/conference/fast23/presentation/li-xiaolu). **Xiaolu Li**, Keyun Cheng, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, Ting-Yi Wu. USENIX FAST 2023 (CCF-A).
@@ -61,6 +64,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 
 **Journal**
 
+- [Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage](https://ieeexplore.ieee.org/document/10909584). Keyun Cheng, Huancheng Puyang, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE TPDS 2025 (CCF-A).
 - [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers: Design and Analysis](files/tc23rackcu.pdf). Guowen Gong, Zhirong Shen, Liang Chen, Suzhen Wu, **Xiaolu Li**, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu. IEEE TC 2023 (CCF-A).
 - [Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation](files/tpds22fastpr.pdf). **Xiaolu Li**, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. IEEE TPDS 2022 (CCF-A).
 - [Repair Pipelining for Erasure-Coded Storage: Algorithms and Evaluation](files/tos21rp.pdf). **Xiaolu Li**, Zuoru Yang, Jinhong Li, Runhui Li, Patrick P. C. Lee, Qun Huang, and Yuchong Hu. ACM TOS 2021 (CCF-A).
@@ -71,6 +75,9 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 - *Fall*, 操作系统原理
 
 # 🧑 Student
+- Kaixin Liu, master 2025-now
+- Zhengyu Liu, master 2025-now
+- Lingwen Gong, master 2025-now
 - Lei Wu, master 2023-2024, PhD 2024-now, Co-supervise with Prof. Yuchong Hu
 - Mengjie He, master 2024-now
 - Zongzhen, Yang, master 2024-now
@@ -79,9 +86,11 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 - Junlong Zhang, master 2023-now, Co-supervise with Prof. Dan Feng
 - Dingxin Wang, master 2023-now
 - Xuan Liu, master 2023-now
-- Han Yuan, master 2022-now, Co-supervise with Prof. Dan Feng
 
-# 🧑 Activities
+# 🧑 Alumni
+- Han Yuan, master 2022-2025, Co-supervise with Prof. Dan Feng, first employment Jinshan (Wuhan)
+
+# 🎉 Activities
 - *PC Member* for FAST'26, FAST'25, ICA3PP'24, ICA3PP'23
 - *AEC Member* for OSDI'22, ATC'22, FAST'24
 - *Journal Reviewer* for TOS, and TON.
