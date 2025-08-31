@@ -24,6 +24,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
 
 # 🔥 News
+- *2025.08*: &nbsp;🎉🎉 One paper get accepted in APSys'25. 
 - *2025.06*: &nbsp;🎉🎉 One paper get accepted in FAST'26.
 - *2025.03*: &nbsp;🎉🎉 One paper get accepted in TPDS'25.
 - *2024.11*: &nbsp;🎉🎉 Invited to serve as a TPC member for FAST'26.
