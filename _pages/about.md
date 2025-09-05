@@ -24,6 +24,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 One paper get accepted in ASP-DAC'26. 
 - *2025.08*: &nbsp;🎉🎉 One paper get accepted in APSys'25. 
 - *2025.06*: &nbsp;🎉🎉 One paper get accepted in FAST'26.
 - *2025.03*: &nbsp;🎉🎉 One paper get accepted in TPDS'25.
@@ -54,6 +55,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 **Conference**
 
 - [LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage](). Keyun Cheng, Guodong, Li, **Xiaolu Li**, Sihuang Hu, and Patrick P. C. Lee. FAST 2026 (CCF-A).
+- [MASS: A Masking-aware Search Framework for Reliable QC-LDPC Code Construction in SSDs](). **Xiaolu Li**, Dingxin Wang, Zhengyao Ding, Jinye Wu, Qingnan Hu, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. ASP-DAC 2026 (CCF-C).
 - [HyperGen: Optimizing Generative Inference with Long Prompts for Resource-Constrainted Systems](). Lingwen Gong, Kaixin Liu, **Xiaolu Li**, Shujie Han, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. APSys 2025 (workshop).
 - [Harmonizing Repair and Maintenance in LRC-Coded Storage](). Keyun Cheng, Si Wu, **Xiaolu Li**, and Patrick P. C. Lee. SRDS 2024 (CCF-B).
 - [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage](https://www.usenix.org/conference/fast24/presentation/ren). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
