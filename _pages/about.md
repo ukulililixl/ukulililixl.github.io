@@ -24,6 +24,7 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
 
 # 🔥 News
+- *2025.09*: &nbsp;🎉🎉 One paper get accepted in TOS. 
 - *2025.09*: &nbsp;🎉🎉 One paper get accepted in ASP-DAC'26. 
 - *2025.08*: &nbsp;🎉🎉 One paper get accepted in APSys'25. 
 - *2025.06*: &nbsp;🎉🎉 One paper get accepted in FAST'26.
@@ -52,11 +53,12 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 </div>
 </div-->
 
-**Conference**
+*: corresponding author
 
-- [LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage](). Keyun Cheng, Guodong, Li, **Xiaolu Li**, Sihuang Hu, and Patrick P. C. Lee. FAST 2026 (CCF-A).
+**Conference**
+- [LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage](). Keyun Cheng, Guodong, Li, **Xiaolu Li***, Sihuang Hu, and Patrick P. C. Lee. FAST 2026 (CCF-A).
 - [MASS: A Masking-aware Search Framework for Reliable QC-LDPC Code Construction in SSDs](). **Xiaolu Li**, Dingxin Wang, Zhengyao Ding, Jinye Wu, Qingnan Hu, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. ASP-DAC 2026 (CCF-C).
-- [HyperGen: Optimizing Generative Inference with Long Prompts for Resource-Constrainted Systems](). Lingwen Gong, Kaixin Liu, **Xiaolu Li**, Shujie Han, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. APSys 2025 (workshop).
+- [HyperGen: Optimizing Generative Inference with Long Prompts for Resource-Constrainted Systems](). Lingwen Gong, Kaixin Liu, **Xiaolu Li***, Shujie Han, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. APSys 2025 (workshop).
 - [Harmonizing Repair and Maintenance in LRC-Coded Storage](). Keyun Cheng, Si Wu, **Xiaolu Li**, and Patrick P. C. Lee. SRDS 2024 (CCF-B).
 - [ELECT: Enabling Erasure Coding Tiering for LSM-tree-based Storage](https://www.usenix.org/conference/fast24/presentation/ren). Yanjing Ren, Yuanming Ren, **Xiaolu Li**, Yuchong Hu, Jingwei Li, and Patrick P. C. Lee. USENIX FAST 2024 (CCF-A).
 - [ParaRC: Embracing Sub-Packetization for Repair Parallelization in MSR-Coded Storage](https://www.usenix.org/conference/fast23/presentation/li-xiaolu). **Xiaolu Li**, Keyun Cheng, Kaicheng Tang, Patrick P. C. Lee, Yuchong Hu, Dan Feng, Jie Li, Ting-Yi Wu. USENIX FAST 2023 (CCF-A).
@@ -68,6 +70,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 
 **Journal**
 
+- [Harnessing Parallelism for Fast Data Repair in MSR-Coded Storage](). Xiaolu Li, Han Yuan, Xuan Liu, Junlong Zhang, Patrick P. C. Lee, Yuchong Hu, and Dan Feng. ACM TOS (CCF-A).
 - [Toward Load-Balanced Redundancy Transitioning for Erasure-Coded Storage](https://ieeexplore.ieee.org/document/10909584). Keyun Cheng, Huancheng Puyang, **Xiaolu Li**, Patrick P. C. Lee, Yuchong Hu, Jie Li, and Ting-Yi Wu. IEEE TPDS 2025 (CCF-A).
 - [Optimal Rack-Coordinated Updates in Erasure-Coded Data Centers: Design and Analysis](files/tc23rackcu.pdf). Guowen Gong, Zhirong Shen, Liang Chen, Suzhen Wu, **Xiaolu Li**, Patrick P. C. Lee, Zhiguo Wan, and Jiwu Shu. IEEE TC 2023 (CCF-A).
 - [Fast Proactive Repair in Erasure-Coded Storage: Analysis, Design, and Implementation](files/tpds22fastpr.pdf). **Xiaolu Li**, Keyun Cheng, Zhirong Shen, and Patrick P. C. Lee. IEEE TPDS 2022 (CCF-A).
