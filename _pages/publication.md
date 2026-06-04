@@ -12,6 +12,9 @@ redirect_from:
 
 *: corresponding author
 
+- \[DAC'26, CCF-A\] **COLA: Enabling Low-latency Reads for Flash-based SSDs via Code Length Adaptation.**
+     Zhengyao Ding, Dingxin Wang, <u>Xiaolu Li</u>*, Patrick P.C. Lee, Lingling Song, Rui Lu, Yichen Zhang, Yuchong Hu, Dan Feng
+     [\[pdf\]]() [\[code\]]()
 - \[FAST'26, CCF-A\] **LESS is More for I/O-Efficient Repairs in Erasure-Coded Storage.** 
     Keyun Cheng, Guodong Li, <u>Xiaolu Li</u>*, Sihuang Hu, and Patrick P. C. Lee. 
     [\[pdf\]](files/fast26less.pdf) [\[code\]](https://github.com/adslabcuhk/less)
