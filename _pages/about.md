@@ -21,7 +21,7 @@ Xiaolu Li received the B.Eng. degree in Computer Science and Technology from Uni
 
 I'm looking for self-motivated students who are interested in distributed storage systems, coding theory including erasure codes and error correction codes, LSM Tree-based KV store, and hardware accelerator such as FPGA. If you are interested in these topics, please feel free to contact me.
 
-We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. 
+We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. Please note that we also welcome students with background other than CS (e.g., Math or biology ...). 
 
 # 🔥 Latest News
 - *2025.12*: &nbsp;🎉🎉 Invited to serve as a TPC member for DSN'26.
