@@ -24,6 +24,8 @@ I'm looking for self-motivated students who are interested in distributed storag
 We also welcome undergraduate students (year-2 or year-3) who are looking for research internship opportunities. If you want to get your hands dirty, please feel free to contact me. Please note that we also welcome students with background other than CS (e.g., Math or biology ...). 
 
 # 🔥 Latest News
+- *2026.11*: &nbsp;🎉🎉 Invited to serve as a TPC member for DAC'27.
+- *2026.02*: &nbsp;🎉🎉 One paper get accepted in DAC'26. 
 - *2025.12*: &nbsp;🎉🎉 Invited to serve as a TPC member for DSN'26.
 - *2025.10*: &nbsp;🎉🎉 Invited to serve as a session chair in APSys'25.
 - *2025.09*: &nbsp;🎉🎉 One paper get accepted in TOS. 
@@ -33,7 +35,7 @@ We also welcome undergraduate students (year-2 or year-3) who are looking for re
 - *2025.03*: &nbsp;🎉🎉 One paper get accepted in TPDS'25.
 
 # 🎉 Service
-- *PC Member* for FAST'26, DSN'26, FAST'25, ICA3PP'24, ICA3PP'23
+- *PC Member* for DAC'27, FAST'26, DSN'26, FAST'25, ICA3PP'24, ICA3PP'23
 - *AEC Member* for OSDI'22, ATC'22, FAST'24
 - *Journal Reviewer* for TOS, and TON.
 
